@@ -1,0 +1,161 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/postgis/dataload.rst:4
+msgid "Loading data into PostGIS"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:10
+msgid ""
+"This section focuses on the basic task of loading shapefiles into our "
+"database using the graphical PostGIS shapefile loading tool, "
+"**pgShapeloader**.  PostGIS is supported by a wide variety of libraries and "
+"applications, and provides many other options for loading data in a variety "
+"of formats."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:12
+msgid ""
+"From the Start Menu, click the :guilabel:`pgShapeloader` link found in "
+":menuselection:`OpenGeo Suite --> pgShapeloader`."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:14
+msgid "Click :guilabel:`View connection details` and enter the following:"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:19
+msgid "Option"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:20
+msgid "Value"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:21 ../../source/postgis/dataload.rst:77
+msgid "**Username**"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:22 ../../source/postgis/dataload.rst:78
+msgid "``postgres``"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:23 ../../source/postgis/dataload.rst:79
+msgid "**Password**"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:24 ../../source/postgis/dataload.rst:80
+msgid "``[blank]``"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:25 ../../source/postgis/dataload.rst:81
+msgid "**Server Host**"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:26 ../../source/postgis/dataload.rst:82
+msgid "``localhost`` ``5432``"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:27 ../../source/postgis/dataload.rst:83
+msgid "**Database**"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:28 ../../source/postgis/dataload.rst:84
+msgid "``SuiteWorkshop``"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:30
+msgid "When finished, click **OK** to test the connection."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:32
+msgid ""
+"Next, click :guilabel:`Add File` and navigate to the :file:`data` directory "
+"in the workshop package. Select the following files:"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:34
+msgid ":file:`cities.shp`"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:35
+msgid ":file:`countries.shp`"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:36
+msgid ":file:`ocean.shp`"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:38
+msgid ""
+"Next, click to edit each entry's :guilabel:`SRID` column, and change every "
+"entry to **4326** (from **0**)."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:40
+msgid ""
+"Finally, click the :guilabel:`Import` button to launch the import process."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:44
+msgid "Loading a shapefile into PostGIS"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:46
+msgid ""
+"When all of the files are loaded, go back to pgAdmin and click the "
+":guilabel:`Refresh` button to update the tree view. You should see your "
+"three new tables show up in the :guilabel:`Tables` section of the tree."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:50
+msgid "pgAdmin view with newly-loaded tables"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:53
+msgid "Bonus: Visualizing PostGIS data"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:55
+msgid "Geometries in PostGIS look a little something like this..."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:59
+msgid "Geometries in PostGIS"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:65
+msgid ""
+"This binary code isn't readable by humans!  So we need help in order to "
+"allow us to visualize our PostGIS data.  Unfortunately, there is no utility "
+"inside PostGIS or pgAdmin themselves to display data.  Fortunately, though, "
+"there are many other applications that can connect to a PostGIS database, "
+"and display and edit data in a more appealing manner."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:67
+msgid ""
+"Installing a fresh GIS client on your workstations is a bit beyond the scope"
+" of this workshop, but if you do have something handy you can load this "
+"data. We recommend **QGIS** for desktop-based data viewing."
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:71
+msgid "*Vive la France!*"
+msgstr ""
+
+#: ../../source/postgis/dataload.rst:73
+msgid ""
+"If you have a client capable of connecting to PostGIS, go ahead and give it "
+"a quick try. Recall the connection parameters from earlier:"
+msgstr ""

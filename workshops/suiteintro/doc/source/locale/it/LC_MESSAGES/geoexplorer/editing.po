@@ -1,0 +1,229 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/editing.rst:4
+msgid "Editing Features"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:6
+msgid ""
+"Two other options enabled when we logged in to GeoExplorer were the layer "
+"editing features. These powerful tools allow authenticated users to Create, "
+"Edit, and Delete features served through GeoServer using the web browser."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:9
+msgid "Feature editing tools"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:14
+msgid "Button"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:15
+msgid "Name"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:16
+msgid "Description"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:18
+msgid "Create New Feature"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:19
+msgid "Initiates the workflow to create a new feature in the selected layer."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:21
+msgid "Edit Existing Feature"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:22
+msgid ""
+"Initiates the workflow to edit and/or delete an existing feature in the "
+"selected layer."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:25
+msgid "Creating new features"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:27
+msgid ""
+"The intention of the ``smallworld`` layer is to capture a list of places.  "
+"Let's add some more!"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:29
+msgid ""
+"Use the following workflow to create points for several other cities you've "
+"been to."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:31
+msgid ""
+"You should be logged into GeoExplorer, and your ``smallworld`` layer should "
+"be loaded, visible and selected."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:35
+msgid "Click the :guilabel:`Create Feature` button to make it active."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:39
+msgid "Navigate to a memorable destination."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:41
+msgid ""
+"Don't forget that you can zoom and pan with any tool active by using the "
+"Shift and Control keys, respectively."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:43
+msgid ""
+"Once you've found your destination, click the location on the map. "
+"GeoExplorer places a blue marker on the map at your click point, and opens a"
+" small dialog box containing a table of attributes."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:47
+msgid ""
+"Fill in the name of the :guilabel:`Place`, :guilabel:`Year` visited, and a "
+"short :guilabel:`Comment` (e.g. the purpose of your visit). If you want, "
+"while you're in edit mode, you can adjust your point on the map by dragging "
+"the temporary marker elsewhere."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:51
+msgid "Once you're satisfied, click :guilabel:`Save`."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:53
+msgid ""
+"Repeat this process for a few more places. Hit some other countries, "
+"continents, and hemispheres. Make places up."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:55
+msgid ""
+"You've added spatial records to a PostGIS database table through a browser. "
+"Awesome!"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:58
+msgid "Editing existing features"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:60
+msgid "Let's now edit an existing feature."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:62
+msgid ""
+"You should be logged into GeoExplorer, and your ``smallworld`` layer should "
+"be loaded, visible and selected. You should be zoomed in to a point (at "
+"zoom-level 10 or thereabouts)."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:66
+msgid ""
+"If it isn't already, click the **Edit Feature** button to make it active."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:70
+msgid "Click on the feature you wish to edit."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:72
+msgid ""
+"A familiar dialog will pop up listing the attributes of the selected feature"
+" and highlighting its geometry."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:76
+msgid ""
+"Click the :guilabel:`Edit` button (at the bottom left of the dialog).  The "
+"pop-up will change to a mode where the field values can be edited."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:78
+msgid ""
+"Change the year, or any other value, and move the point marker closer to the"
+" city center."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:82
+msgid "Click :guilabel:`Save`."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:84
+msgid ""
+"You've gone and edited the attributes and geometries of features in a "
+"spatial database over the web.  Nicely done!"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:87
+msgid "Deleting existing features"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:89
+msgid ""
+"Again for the sake of example, let's assume that at least one of your "
+"destinations was bogus and delete it."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:93
+msgid ""
+"You should be logged into GeoExplorer, and your ``smallworld`` layer should "
+"be loaded, visible and selected. You should be zoomed into a feature at "
+"zoom-level 10 or thereabouts."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:95
+msgid ""
+"Navigate to a point in ``smallworld`` that you've never been to or are "
+"trying to forget about."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:97
+msgid ""
+"If it isn't already, click the :guilabel:`Edit Feature` button to make it "
+"active."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:99
+msgid "Click on the point you wish to delete.  The feature edit dialog opens."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:101
+msgid ""
+"Next to the :guilabel:`Edit` button you'll notice a :guilabel:`Delete` "
+"button that does exactly what its name implies."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:103
+msgid ""
+"Click the :guilabel:`Delete` button. This opens a prompt asking for "
+"confirmation that you do want to delete the feature. Click :guilabel:`Yes`."
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:107
+msgid "Delete confirmation"
+msgstr ""
+
+#: ../../source/geoexplorer/editing.rst:109
+msgid "Your feature will be deleted, both from the map and the database."
+msgstr ""

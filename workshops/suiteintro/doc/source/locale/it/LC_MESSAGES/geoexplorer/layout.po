@@ -1,0 +1,55 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/layout.rst:4
+msgid "GeoExplorer interface"
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:6
+msgid "We'll now launch GeoExplorer and have a look at the user interface."
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:8
+msgid ""
+"You can access GeoExplorer directly from this URL "
+"``http://localhost:8080/geoexplorer``, or from the Dashboard by clicking on "
+":guilabel:`GeoExplorer`."
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:10
+msgid "OpenGeo Suite needs to be running in order to access GeoExplorer."
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:12
+msgid "The interface is divided into the following sections:"
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:14
+msgid "The main **Map Panel**"
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:15
+msgid "The **Toolbar**"
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:16
+msgid "The **Layers Panel**"
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:20
+msgid "GeoExplorer Interface"
+msgstr ""
+
+#: ../../source/geoexplorer/layout.rst:22
+msgid "In upcoming sections, we'll review specific GeoExplorer tools."
+msgstr ""

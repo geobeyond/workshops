@@ -1,0 +1,162 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/postgis/introduction.rst:4
+msgid "Introducing PostGIS"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:6
+msgid ""
+"PostGIS is a spatial database. More accurately, PostGIS is an extension that"
+" turns the `PostgreSQL <http://postgresql.org>`_ database system into a "
+"spatial database. PostGIS is very similar in functionality to spatial "
+"support in Microsoft SQL Server, Oracle Spatial, and DB2 Spatial Extender."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:8
+msgid ""
+"Providing optimized access to large amounts of spatial data, PostGIS is a "
+"fundamental component of OpenGeo Suite. To reinforce this notion, we'll put "
+"it down near the bottom of our architecture diagram, and build the rest of "
+"the stack out on top of it."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:12
+msgid "PostGIS in OpenGeo Suite stack"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:17
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:19
+msgid ""
+"PostgreSQL is a powerful, object-relational database management system "
+"(ORDBMS). It is released under a BSD-style license and is thus free and open"
+" source software. As with many other open source programs, PostgreSQL is not"
+" controlled by any single company, but has a global community of developers "
+"and companies to develop it."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:21
+msgid ""
+"PostgreSQL was designed from the very start with type extension in mind: the"
+" ability to add new data types, functions and access methods at runtime.  "
+"Because of this, the PostGIS extension can be developed by a separate "
+"development team, yet still integrate very tightly into the core PostgreSQL "
+"database."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:24
+msgid "Why PostgreSQL?"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:26
+msgid "PostgreSQL has:"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:28
+msgid "Proven reliability and transactional integrity by default (ACID)"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:29
+msgid "Careful support for SQL standards (full SQL92)"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:30
+msgid "Pluggable type extension and function extension"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:31
+msgid "Community-oriented development model"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:32
+msgid ""
+"No limit on column sizes (\"TOAST\"-able tuples) to support big GIS objects"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:33
+msgid "Generic index structure (GiST) to allow R-Tree index"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:34
+msgid "Easy to add custom functions"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:36
+msgid ""
+"Combined, PostgreSQL provides a very easy development path to add new "
+"spatial types. Because the development path for adding types to PostgreSQL "
+"was so straightforward, it made sense to start there."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:38
+msgid ""
+"A common question from people familiar with open source databases is, \"Why "
+"wasn't PostGIS built on MySQL?\". MySQL spatial objects are spread over the "
+"entire code base, as they were hacked on the string type as a special case, "
+"making it less ideal for development. Often, when administrators talk about "
+"using MySQL for spatial, they merely have database tables with x/y columns. "
+"But one gets no benefit from the spatial nature of the data, and it doesn't "
+"scale to higher dimensional geometries like lines and polygons. As such, "
+"these are not true spatial implementations."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:41
+msgid "Why not just use Shapefiles?"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:43
+msgid ""
+"The `shapefile <http://en.wikipedia.org/wiki/Shapefile>`_ (and other file "
+"formats) have been the standard way of storing and interacting with spatial "
+"data for over 20 years. However, these \"flat\" files have the following "
+"disadvantages:"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:45
+msgid ""
+"**Files require special software to read and write.**  SQL is an abstraction"
+" for random data access and analysis. Without that abstraction, you will "
+"need to write all the access and analysis code yourself."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:46
+msgid ""
+"**Concurrent users can cause corruption.** While it's possible to write "
+"extra code to ensure that multiple writes to the same file do not corrupt "
+"the data, by the time you have solved the problem and also solved the "
+"associated performance problem, you will have written the better part of a "
+"database system. Why not just use a standard database?"
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:47
+msgid ""
+"**Complicated questions require complicated software to answer.** "
+"Complicated and interesting questions (spatial joins, aggregations, etc) "
+"that are expressible in one line of SQL in the database take hundreds of "
+"lines of specialized code to answer when programming against files. Most "
+"users of PostGIS are setting up systems where multiple applications will be "
+"expected to access the data, so having a standard SQL access method "
+"simplifies deployment and development. Some users are working with large "
+"data sets; with files, they might be segmented into multiple files, but in a"
+" database they can be stored as a single large table."
+msgstr ""
+
+#: ../../source/postgis/introduction.rst:49
+msgid ""
+"In summation, the combination of support for multiple users, complex ad hoc "
+"queries, and performance on large data sets are what sets spatial databases "
+"apart from file-based systems."
+msgstr ""

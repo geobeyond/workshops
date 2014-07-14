@@ -1,0 +1,115 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/printing.rst:4
+msgid "Printing static maps"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:6
+msgid ""
+"GeoExplorer provides a built-in tool for printing static maps to PDF format."
+" Where a link to a live map application isn't appropriate, PDF maps can be "
+"emailed or printed in hard-copy for reference."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:8
+msgid ""
+"In this section we'll walk through the steps for printing a static map in "
+"GeoExplorer."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:13
+msgid "Button"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:14
+msgid "Name"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:17
+msgid "Print Map"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:18
+msgid "Opens a dialog for printing your map to PDF"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:21
+msgid "Printing a Map"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:23
+msgid "You do not need to be logged in to GeoExplorer to print a static map."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:25
+msgid "We assume GeoExplorer is running and displaying a composed map."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:27
+msgid ""
+"Click the :command:`Print` button. The GeoExplorer :guilabel:`Print Preview`"
+" dialog opens."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:31
+msgid ""
+"Select your target :guilabel:`Paper Size` and image :guilabel:`Resolution` "
+"from the respective drop-downs."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:33
+msgid ""
+"The text in the upper and lower boxes can be replaced by a :guilabel:`Map "
+"Title` and :guilabel:`Map Comments`."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:35
+msgid ""
+"If necessary, reposition the map image in the map frame using the on-map "
+"navigation controls."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:37
+msgid ""
+"Click the :guilabel:`Print` button when you are satisfied with your print "
+"layout. This fires a command to GeoServer to generate a PDF and then send it"
+" back to the browser."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:39
+msgid ""
+"When your map has been prepared, your browser will prompt you to save or "
+"open the PDF."
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:43
+msgid "A PDF map printed from GeoExplorer"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:47
+msgid "Did you see this pop up when you tried to print your map?"
+msgstr ""
+
+#: ../../source/geoexplorer/printing.rst:52
+msgid ""
+"You'll typically see this message when your composed map is *only* "
+"displaying proprietary layers. Terms of use prevent Google, Bing, Yahoo!, "
+"and other map services from being printed under most circumstances. "
+"Otherwise, if you've got at least one Overlay layer (or OpenStreetMap), a "
+"print will occur, though the proprietary layers will be ignored."
+msgstr ""

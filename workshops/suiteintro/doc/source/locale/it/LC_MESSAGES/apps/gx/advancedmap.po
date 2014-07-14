@@ -1,0 +1,92 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/apps/gx/advancedmap.rst:4
+msgid "Creating popups with feature info"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:6
+msgid "For our final exercise, we will create a GeoExt map application with:"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:8
+msgid "A raster basemap and a vector overlay, and"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:9
+msgid "Pop-ups that display when we click the vector features."
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:11
+msgid ""
+"The pop-ups will contain information about those features, directly from "
+"their attributes in the underlying GeoServer feature-store."
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:14
+msgid "Example"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:16
+msgid ""
+"First open the previous example, :file:`gxmap1.html` and save it as a new "
+"file, called :file:`gxmap2.html`. Open this new file for editing in a text "
+"editor."
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:18
+msgid "Add a new WFS layer definition just below our existing WMS layer:"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:32
+msgid ""
+"This creates a vector layer out of our Small World points, served through "
+"WFS from our local GeoServer."
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:34
+msgid ""
+"Add this layer to your GeoExt map panel by updating the layers array in the "
+"configuration object:"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:40
+msgid ""
+"At the bottom of the map initialization code, but before the "
+"``mapwin.show()`` call, create a function for a GeoExt popup:"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:57
+msgid ""
+"Below that, we add a function that creates the popup when the ``smallworld``"
+" layer is clicked:"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:67
+msgid "Finally, we add the SelectFeature control to our map and activate it"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:78
+msgid ""
+"Save the file, and load it in the browser: "
+"``http://localhost:8080/geoserver/www/gxmap2.html``. Click on a feature to "
+"see the pop-up"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:82
+msgid "A GeoExt MapWindow with a vector layer plus popup"
+msgstr ""
+
+#: ../../source/apps/gx/advancedmap.rst:84
+msgid "Your final code-listing will look like this:"
+msgstr ""

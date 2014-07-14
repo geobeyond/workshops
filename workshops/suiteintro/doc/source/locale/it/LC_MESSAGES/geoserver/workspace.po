@@ -1,0 +1,91 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/workspace.rst:4
+msgid "Creating a Workspace"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:8
+msgid ""
+"The first step in data loading is usually to create a Workspace.  This "
+"creates a virtual container for your project data. Multiple layers from "
+"multiple sources can be contained inside a workspace, with the provision "
+"that each layer name is unique within the workspace."
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:10
+msgid "Navigate to the main :ref:`geoserver.webadmin` page."
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:12
+msgid ""
+"Click on the :guilabel:`Workspaces` link on the left column, under "
+":guilabel:`Data`."
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:16
+msgid "Click to go to the Workspaces page"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:18
+msgid ""
+"Click the :guilabel:`Add new workspace` link at the top center of the page."
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:22
+msgid "Workspaces page"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:24
+msgid ""
+"A workspace is comprised of a **Name** (also sometimes known as a "
+"\"namespace prefix\"), represented by a few characters, and a **Namespace "
+"URI**.  These two fields must uniquely identify the workspace.  Fill in the "
+"following information:"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:29
+msgid ":guilabel:`Name`"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:30
+msgid "``earth``"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:31
+msgid ":guilabel:`Namespace URI`"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:32
+msgid "``http://geoserver.org/earth``"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:33
+msgid ":guilabel:`Default workspace`"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:34
+msgid "*Checked*"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:38
+msgid "Creating a new workspace"
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:40
+msgid "When done, click :guilabel:`Submit`."
+msgstr ""
+
+#: ../../source/geoserver/workspace.rst:42
+msgid "With our workspace created, we can load our data files."
+msgstr ""

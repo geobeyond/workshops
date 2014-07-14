@@ -1,0 +1,105 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/postgis/metatables.rst:4
+msgid "PostGIS metatables and views"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:8
+msgid ""
+"When our new PostGIS database, it received all all 700+ PostGIS functions, "
+"as well as one table (``spatial_ref_sys``) and two views "
+"(``geometry_columns`` and ``geography_columns``)."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:11
+msgid "spatial_ref_sys"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:13
+msgid ""
+"The ``spatial_ref_sys`` table defines the spatial reference systems known to"
+" the database.  They are known by an ID number, such as 4326 (for WGS 84 "
+"Lat/Lon)."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:17
+msgid "Contents of spatial_ref_sys table"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:20
+msgid "geometry_columns"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:22
+msgid ""
+"The ``geometry_columns`` view defines the dimension, geometry, and spatial "
+"reference system for each spatial table in the PostGIS database that "
+"contains a geometry type."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:24
+msgid ""
+"Here is an example of the ``geometry_columns`` table. (Our table is "
+"currently empty.)"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:28
+msgid "Contents of geometry_columns view"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:31
+msgid "geography_columns"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:33
+msgid ""
+"The ``geography_columns`` view defines the dimension, geometry, each spatial"
+" table in the PostGIS database that contains a geography type."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:35
+msgid ""
+"Geography and Geometry are similar in that they can both represent the same "
+"type of spatial data, but differ in a few crucial ways:"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:37
+msgid ""
+"The Geometry column type can hold geometric data of any type and in any (or "
+"no) projection and CRS. It is not optimized for dealing with geodetic "
+"measurements (distances on the sphere)."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:38
+msgid ""
+"The Geography type, while able to handle geodetic measurements, are much "
+"more limited, in that all coordinates are assumed to be WGS84 (4326) and "
+"there are fewer compatible functions when compared to Geometry."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:41
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:43
+msgid ""
+"Expand the ``Functions`` tree in our new database's objects, and look at the"
+" contents."
+msgstr ""
+
+#: ../../source/postgis/metatables.rst:44
+msgid ""
+"Which of the three tenets of a spatial database was not created from the "
+"template database? Why not?"
+msgstr ""

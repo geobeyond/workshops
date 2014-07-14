@@ -1,0 +1,143 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/saving.rst:4
+msgid "Saving map layouts"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:6
+msgid ""
+"Now that you've spent time configuring your map layout (adding, reordering, "
+"styling and editing layers, etc.), it might be a good idea to save your "
+"layout. Saving your composed map allows you to come back to the current "
+"layout without having to redo all of your work."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:8
+msgid ""
+"In this section, we'll have a quick look at how to save map layouts, and "
+"return to them in another browser session."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:11
+msgid "Save Map tool"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:16
+msgid "Button"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:17
+msgid "Name"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:20
+msgid "Save Map"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:21
+msgid "Initiates the workflow to save your current map layout."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:24
+msgid "Permalinks"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:26
+msgid ""
+"The workflow for saving and loading maps is evolving. There isn't really a "
+"single UI for the process, and there isn't an easy way to Delete or Copy "
+"(Save As) saved maps as one would expect. Improvements are planned for the "
+"near-future."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:28
+msgid ""
+"Saving your map creates a \"permalink\" to the current layout and adds an "
+"entry in a server-side database capturing the list of layers in your map, "
+"their order and their properties (styling, etc). Because of this interaction"
+" with GeoServer, you must be logged in to access this function."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:30
+msgid ""
+"Continuing the previous exercise, you should be logged into GeoExplorer, and"
+" working with a map that contains your ``earth`` and ``smallworld`` layers."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:32
+msgid ""
+"The map extent should be set to the area that you want to appear by default "
+"when you load your map."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:36
+msgid "Click the **Save Map** button to trigger the process."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:40
+msgid ""
+"A **Bookmark URL** dialog opens presenting a Permalink to your saved layout."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:42
+msgid ""
+"The Permalink is highlighted in this dialog, so you can quickly **Copy** and"
+" **Paste** it into any number of locations (Shortcuts, Documents, Emails, "
+"etc.)"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:46
+msgid ""
+"If you look at your browser's address bar, you'll notice that when you hit "
+"**Save Map** the location changed to the same Permalink. You have a variety "
+"of options for adding this location to your browser's Favorites folder, "
+"Toolbar, Bookmarks, etc."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:49
+msgid "Loading Saved Map Layouts"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:51
+msgid ""
+"Loading a saved map is a matter of opening a saved location in your browser."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:53
+msgid ""
+"Return to the default GeoExplorer window at "
+"``http://localhost:8080/geoexplorer/``"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:57
+msgid "Access your saved map by navigating to the URL noted previously."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:59
+msgid "Your already-composed layout opens, ready for some more fine-tuning."
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:64
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/geoexplorer/saving.rst:66
+msgid ""
+"With your saved configuration reloaded and possibly updated, what happens if"
+" you click the :command:`Save Map` button again? What doesn't happen?"
+msgstr ""

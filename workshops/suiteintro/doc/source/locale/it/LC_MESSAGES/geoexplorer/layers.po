@@ -1,0 +1,142 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/layers.rst:4
+msgid "Layer Panel and Legend"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:6
+msgid ""
+"The Layer Panel lists each layer currently loaded on the map, and provides "
+"both a tool set and context menu for interacting with them."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:9
+msgid "Layer types"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:11
+msgid "Layers are organized in two folders: **Overlays** and **Base Layers**."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:13
+msgid ""
+"**Overlays** include any layer added from the local GeoServer or any other "
+"remote, WMS or WFS server"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:14
+msgid ""
+"**Base Layers** include any layer added from a known tile-map server "
+"(Google, Bing, Yahoo, MapQuest, or OpenStreetMap)"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:17
+msgid "Layer tools"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:19
+msgid ""
+"The Layer Tools are located in a smaller tool-bar at the top of the Layer "
+"Panel."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:24
+msgid "Button"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:25
+msgid "Name"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:26
+msgid "Description"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:28
+msgid "Add Layer"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:29
+msgid "Opens a list of available layers for you to add to your map."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:31
+msgid "Remove Layer"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:32
+msgid "Removes the currently selected layer from your map."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:34
+msgid "Layer Properties"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:35
+msgid "Opens the layer properties dialog."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:37
+msgid "Edit Styles"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:38
+msgid "Opens a GUI-based layer style editor. (Requires Login.)"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:40
+msgid ""
+"You might notice that the **Edit Styles** button is visible but inactive. It"
+" is one of several tools that users must log in to use. We'll review these "
+"in upcoming sections."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:43
+#: ../../source/geoexplorer/layers.rst:49
+msgid "Layer context menu"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:45
+msgid ""
+"The Layer context menu opens when you right-click an item in the Layer list."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:51
+msgid ""
+"Its options mirror the Layer Tools (above) with the addition of the "
+":command:`Zoom to layer extent` option."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:53
+msgid ""
+"As its name implies, this tool zooms the map to the spatial extent of the "
+"selected layer."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:56
+msgid "Legend"
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:58
+msgid ""
+"The map legend displays styling information for any layers in the Overlay "
+"list. Its contents are updated automatically as layers are added, removed or"
+" re-styled."
+msgstr ""
+
+#: ../../source/geoexplorer/layers.rst:60
+msgid ""
+"Due to their nature as a composite of multiple layers, layer groups will not"
+" display any legend."
+msgstr ""

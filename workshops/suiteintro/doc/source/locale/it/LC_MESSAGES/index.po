@@ -1,0 +1,59 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: 2014-06-22 16:10+0100\n"
+"Last-Translator: Francesco Bartoli <francesco.bartoli@geobeyond.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../source/index.rst:4
+msgid "Introduction to OpenGeo Suite"
+msgstr "Introduzione alla OpenGeo Suite"
+
+#: ../../source/index.rst:6
+msgid ""
+"Welcome! This workshop will introduce you to OpenGeo Suite, a complete web "
+"mapping solution. OpenGeo Suite includes the following components:"
+msgstr ""
+"Benvenuti! Questo workshop vi introdurrà la OpenGeo Suite, una soluzione "
+"completa per il web mapping. La OpenGeo Suite include i seguenti componenti:"
+
+#: ../../source/index.rst:8
+msgid "**PostGIS** - Spatial database"
+msgstr "**PostGIS** - Database spaziale"
+
+#: ../../source/index.rst:9
+msgid "**GeoServer** - Web map / application server"
+msgstr "**GeoServer** - Server applicativo per mappe e dati geografici su Web"
+
+#: ../../source/index.rst:10
+msgid "**GeoWebCache** - Tile cache server"
+msgstr "**GeoWebCache** - Server di cache delle tile"
+
+#: ../../source/index.rst:11
+msgid "**OpenLayers** - Browser-based map display library"
+msgstr "**OpenLayers** - Libreria per la visualizzazione di mappe nel browser"
+
+#: ../../source/index.rst:12
+msgid "**GeoExt** - Mapping application library"
+msgstr "**GeoExt** - Libreria per applicazioni su mappe"
+
+#: ../../source/index.rst:13
+msgid "**QGIS** - Desktop mapping client"
+msgstr "**QGIS** - Client desktop per mappe e dati geografici"
+
+#: ../../source/index.rst:17
+msgid "The OpenGeo Suite stack"
+msgstr "Stack della OpenGeo Suite"
+
+#: ../../source/index.rst:21
+msgid "We'll go into the details of each component throughout the workshop."
+msgstr ""
+"Entreremo nel dettaglio di ogni singolo componente durante il workshop."

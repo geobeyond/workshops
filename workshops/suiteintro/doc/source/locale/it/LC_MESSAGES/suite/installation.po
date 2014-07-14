@@ -1,0 +1,189 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: 2014-06-23 15:51+0100\n"
+"Last-Translator: Francesco Bartoli <francesco.bartoli@geobeyond.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../source/suite/installation.rst:4
+msgid "Installing OpenGeo Suite"
+msgstr "Installazione della OpenGeo Suite"
+
+#: ../../source/suite/installation.rst:6
+msgid "In this section we will install OpenGeo Suite on your workshop machine."
+msgstr "In questa sezione installeremo la OpenGeo Suite sulla vostra macchina"
+
+#: ../../source/suite/installation.rst:9
+msgid "Installation"
+msgstr "Installazione"
+
+#: ../../source/suite/installation.rst:11
+msgid ""
+"The OpenGeo Suite executable file is located in the workshop package in the :"
+"file:`software` folder."
+msgstr ""
+"I file eseguibili della OpenGeo Suite per il workshop sono situati nella "
+"cartella :file:`software`."
+
+#: ../../source/suite/installation.rst:13
+msgid "During this installation, please keep all of the default settings."
+msgstr ""
+"Durante questa installazione mantieni, per favore, tutte le impostazioni di "
+"default. "
+
+#: ../../source/suite/installation.rst:15
+msgid ""
+"**Double-click** the file :file:`OpenGeoSuite-<version>.exe` to begin the "
+"installation."
+msgstr ""
+"**Doppio-click** sul file :file:`OpenGeoSuite-<version>.exe` per cominciare "
+"l'installazione."
+
+#: ../../source/suite/installation.rst:17
+msgid ""
+"On some systems, you might see a Windows Security warning. We promise the "
+"software is safe, so click :guilabel:`Run` to launch the installer."
+msgstr ""
+"In alcuni sistemi operativi potresti incontrare un avviso della Sicurezza "
+"Windows. Vi assicuriamo che il software è del tutto sicuro per cui potete "
+"premere il bottone :guilabel:`Run` per lanciare l'installazione."
+
+#: ../../source/suite/installation.rst:19
+msgid "At the ``Welcome`` screen, click :guilabel:`Next`."
+msgstr ""
+"Alla comparsa della schermata di ``Welcome``, fare click su :guilabel:`Next`."
+
+#: ../../source/suite/installation.rst:23
+msgid "OpenGeo Suite installation Welcome screen"
+msgstr "Schermata di Benvenuto per l'installazione della OpenGeo Suite"
+
+#: ../../source/suite/installation.rst:25
+msgid "Read the *License Agreement*, then click :guilabel:`I Agree`."
+msgstr "Leggere il *License Agreement*, poi fare click su :guilabel:`I Agree`."
+
+#: ../../source/suite/installation.rst:29
+msgid "License Agreement"
+msgstr "Accordo di Licenza"
+
+#: ../../source/suite/installation.rst:31
+msgid ""
+"Select the *Destination Folder* where you would like to install OpenGeo "
+"Suite, and click :guilabel:`Next`."
+msgstr ""
+"Selezionare la *Destination Folder* dove vorresti installare la OpenGeo "
+"Suite, e poi fare click su :guilabel:`Next`."
+
+#: ../../source/suite/installation.rst:35
+msgid "Destination folder for the installation"
+msgstr "Cartella di destinazione dell'installazione"
+
+#: ../../source/suite/installation.rst:37
+msgid ""
+"Select the name and location of the *Start Menu Folder* that will be created "
+"for the Suite components, and click :guilabel:`Next`."
+msgstr ""
+"Selezionare il nome e la posizione dello *Start Menu Folder* che sarà creato "
+"per i componenti della Suite, e poi fare click su :guilabel:`Next`."
+
+#: ../../source/suite/installation.rst:41
+msgid "Start Menu Folder to be created for the installation"
+msgstr "Cartella di Start Menu che verrà creata per l'installazione"
+
+#: ../../source/suite/installation.rst:43
+msgid "Choose the components you wish to install."
+msgstr "Scegli i componenti che desideri installare."
+
+#: ../../source/suite/installation.rst:47
+msgid "Component selection"
+msgstr "Selezione componente"
+
+#: ../../source/suite/installation.rst:49
+msgid ""
+"We will be using the :guilabel:`pgAdmin` and :guilabel:`psql` components in "
+"this workshop. They are found in the :guilabel:`Client Tools` tree. Check "
+"these two components and click guilabel:`Next`."
+msgstr ""
+"Utilizzeremo i componenti :guilabel:`pgAdmin` e :guilabel:`psql` nel "
+"presente workshop. Li possiamo trovare nell'albero :guilabel:`Client Tools`. "
+"Spuntare questi due componenti e poi fare click su guilabel:`Next`."
+
+#: ../../source/suite/installation.rst:53
+msgid "Selecting PostGIS client tools"
+msgstr "Selezionare gli strumenti del client PostGIS"
+
+#: ../../source/suite/installation.rst:55
+msgid ""
+"When you are ready, click :guilabel:`Install` to start the installation."
+msgstr ""
+"Quando siete pronti fare click su :guilabel:`Install` per iniziare "
+"l'installazione."
+
+#: ../../source/suite/installation.rst:59
+msgid "Ready to install"
+msgstr "Pronti ad installare"
+
+#: ../../source/suite/installation.rst:61
+msgid "Please wait while the installation proceeds."
+msgstr "Per favore attendi che l'installazione termini."
+
+#: ../../source/suite/installation.rst:65
+msgid "Installation progress"
+msgstr "Avanzamento dell'installazione"
+
+#: ../../source/suite/installation.rst:67
+msgid "After installation, click :guilabel:`Finish`."
+msgstr "Dopo l'installazione fare click su :guilabel:`Finish`."
+
+#: ../../source/suite/installation.rst:71
+msgid "OpenGeo Suite has been installed"
+msgstr "La OpenGeo Suite è stata installata"
+
+#: ../../source/suite/installation.rst:74
+msgid "Starting and stopping services"
+msgstr "Start e Sto dei servizi"
+
+#: ../../source/suite/installation.rst:76
+msgid ""
+"OpenGeo Suite has been installed and is now running by default. There are "
+"two system services related to OpenGeo Suite:"
+msgstr ""
+"La OpenGeo Suite è stata installata ed è ora in esecuzione con le "
+"impostazioni di base. Ci sono due servizi relativi alla OpenGeo Suite:"
+
+#: ../../source/suite/installation.rst:78
+msgid "**OpenGeo Jetty** - Controls GeoServer and other web applications"
+msgstr "**OpenGeo Jetty** - Controlla GeoServer e altre applicazioni Web"
+
+#: ../../source/suite/installation.rst:79
+msgid "**OpenGeo Postgres** - Controls PostgreSQL/PostGIS database"
+msgstr "**OpenGeo Postgres** - Controlla il database PostgreSQL/PostGIS"
+
+#: ../../source/suite/installation.rst:81
+msgid ""
+"You can start and stop these services from the Start Menu by going to :"
+"menuselection:`OpenGeo Suite --> GeoServer/PostGIS --> Start/Stop`"
+msgstr ""
+"Puoi effettuare lo start e stop dei servizi dallo Start Menu andando su :"
+"menuselection:`OpenGeo Suite --> GeoServer/PostGIS --> Start/Stop`"
+
+#: ../../source/suite/installation.rst:85
+msgid "Start Menu entries for starting and stopping OpenGeo Suite services"
+msgstr ""
+"Voci dello Start Menu per lo start e stop dei servizi della OpenGeo Suite"
+
+#: ../../source/suite/installation.rst:87
+msgid ""
+"You can also start and stop these services through the standard Windows "
+"Services dialog."
+msgstr ""
+"Puoi anche effettuare lo start e stop di questi servizi attraverso la "
+"finestra dei Servizi di Windows."

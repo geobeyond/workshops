@@ -1,0 +1,63 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/apps/gx/createmap.rst:4
+msgid "Creating a GeoExt Floating Map Window"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:6
+msgid ""
+"In GeoExt, we use a \"web application\" paradigm, as opposed to a \"web "
+"page\" paradigm. This means that we won't need to create extensive markup. "
+"The basic ingredients of our map window will be:"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:8
+msgid "A minimal HTML document including JavaScript and CSS resources"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:9
+msgid "JavaScript for application initialization"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:10
+msgid "Configuration objects for the application's components"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:13
+msgid "Example"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:15
+msgid "Let's take a look at a fully working example of a GeoExt map window."
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:66
+msgid ""
+"Using a basic text editor, copy the text above into a new file and save it "
+"as :file:`<user>\\\\.opengeo\\\\data_dir\\\\www\\\\gxmap1.html`."
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:68
+msgid ""
+"Open this file in your web browser: "
+"http://localhost:8080/geoserver/www/gxmap1.html"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:70
+msgid "Drag this map window around your browser!"
+msgstr ""
+
+#: ../../source/apps/gx/createmap.rst:74
+msgid "A GeoExt MapWindow"
+msgstr ""

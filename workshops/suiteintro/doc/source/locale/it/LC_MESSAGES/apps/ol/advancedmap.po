@@ -1,0 +1,154 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/apps/ol/advancedmap.rst:4
+msgid "Adding layers and controls"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:6
+msgid ""
+"By default, all OpenLayers maps come with two default controls. We saw them "
+"in our previous example."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:8
+msgid ""
+"There is a navigation (or \"pan\") tool in the top left corner of the "
+"screen, which allows a user to pan the map by clicking on direction buttons."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:10
+msgid ""
+"Below this, there is a Zoom tool, which contains three buttons, one to Zoom "
+"In (the up arrow), one to Zoom Out (the down arrow), and a middle button "
+"which is a Zoom To Full Extent button (the globe icon)."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:12
+msgid ""
+"In this section, we'll extend the template from our previous example with "
+"another control for zooming and panning, another layer, and a control that "
+"allows you to toggle layer visibility."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:15
+msgid "A new starter map"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:17
+msgid "Let's start with a slight variation on our template OpenLayers map."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:56
+msgid ""
+"Using a basic text editor. Copy the text above into a new file called "
+":file:`map2.html`, and save it as "
+":file:`<user>\\\\.opengeo\\\\data_dir\\\\www\\\\map2.html`."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:58
+msgid ""
+"This template is nearly identical to our previous map. This version has "
+"place holders for code we'll add to implement controls (``// MAP OPTIONS "
+"//``) and additional map layers (``// OTHER LAYERS //``)."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:60
+msgid ""
+"Verify that the map works by navigating to: "
+"http://localhost:8080/geoserver/www/map2.html"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:64
+msgid "A basic (but soon to be extended) OpenLayers map"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:67
+msgid "Adding controls"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:69
+msgid ""
+"The PanZoom control is added to OpenLayers maps by default. However, when it"
+" is added explicitly you can configure an option for the zoom tool to "
+"include a slider bar with a \"step\" for each available zoom level. (For "
+"example, if you have 16 zoom levels, the default, your Zoom tool will have "
+"16 possible positions for the slider.)"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:71
+msgid ""
+"In your working example, add a ``mapoptions`` block with the following code:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:82
+msgid ""
+"It should be added at around line 17, replacing the placeholder ``// MAP "
+"OPTIONS //``."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:84
+msgid ""
+"The next thing we need to do is instruct the map constructor to use these "
+"options. Replace the line:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:90
+msgid "with:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:96
+msgid "Save the file and reload in the browser."
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:100
+msgid "An extended ZoomBar"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:102
+msgid ""
+"Note that the zoom bar has too many zoom levels for the size of our small "
+"map window. In this case, we could either make our map window larger, by "
+"replacing our map style with a large ``height`` value, as in:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:113
+msgid ""
+"Or, we could reduce the number of zoom levels in our map, by adding the "
+"``numZoomLevels`` property to the map options, for example:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:127
+msgid "An extended ZoomBar with fewer zoom levels"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:130
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:132
+msgid "Add other layers to your map. You'll need to include the following:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:134
+msgid ""
+"A variable to hold the layer definition (what type of layer will you add?)"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:140
+msgid "The layer object(s) in the list of layers added to the map:"
+msgstr ""
+
+#: ../../source/apps/ol/advancedmap.rst:146
+msgid "Add a control to toggle the visibility of your layers"
+msgstr ""

@@ -1,0 +1,195 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: 2014-06-22 15:40+0100\n"
+"Last-Translator: Francesco Bartoli <francesco.bartoli@geobeyond.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../source/workshop.rst:4
+msgid "Workshop materials"
+msgstr "Materiali del Workshop"
+
+#: ../../source/workshop.rst:7
+msgid "Workflow"
+msgstr "Workflow"
+
+#: ../../source/workshop.rst:9
+msgid "The following are the high-level tasks that we'll accomplish:"
+msgstr "Le attività di alto livello che porteremo a termine sono le seguenti:"
+
+#: ../../source/workshop.rst:11
+msgid "PostGIS"
+msgstr "PostGIS"
+
+#: ../../source/workshop.rst:13
+msgid "Spatial database overview"
+msgstr "Vista generica del database spaziale"
+
+#: ../../source/workshop.rst:14
+msgid "Create a spatial database"
+msgstr "Crea un database spaziale"
+
+#: ../../source/workshop.rst:15
+msgid "Load shapefiles into database tables"
+msgstr "Carica shapefile nelle tabelle del database"
+
+#: ../../source/workshop.rst:16
+msgid "Introduce some basic functions and operations"
+msgstr "Introduzione di alcune funzioni e operazioni di base"
+
+#: ../../source/workshop.rst:18
+msgid "GeoServer"
+msgstr "GeoServer"
+
+#: ../../source/workshop.rst:20
+msgid "GeoServer concepts"
+msgstr "Concetti di GeoServer"
+
+#: ../../source/workshop.rst:21
+msgid "Basic GeoServer administration tasks"
+msgstr "Attività di base per l'amministrazione di GeoServer"
+
+#: ../../source/workshop.rst:22
+msgid "Load data into GeoServer from PostGIS tables and files"
+msgstr "Caricamento dei dati in GeoServer da tabelle PostGIS e file"
+
+#: ../../source/workshop.rst:23
+msgid "Publish that data through web services"
+msgstr "Pubblicazione dei dati tramite web service"
+
+#: ../../source/workshop.rst:25
+msgid "GeoExplorer"
+msgstr "GeoExplorer"
+
+#: ../../source/workshop.rst:27
+msgid "GeoExplorer background"
+msgstr "Considerazioni su GeoExplorer"
+
+#: ../../source/workshop.rst:28
+msgid "View, compose, and publish maps"
+msgstr "Visualizzazione, composizione e pubblicazione di mappe"
+
+#: ../../source/workshop.rst:29
+msgid "Edit geospatial data"
+msgstr "Modifica dei dati geografici"
+
+#: ../../source/workshop.rst:31
+msgid "GeoWebCache"
+msgstr "GeoWebCache"
+
+#: ../../source/workshop.rst:33
+msgid "Introduce tile caching concepts"
+msgstr "Introduzione ai concetti di cache delle tile"
+
+#: ../../source/workshop.rst:34
+msgid "Strategies for tile caching"
+msgstr "Strategie per la cache dei tile"
+
+#: ../../source/workshop.rst:35
+msgid "Accelerate map rendering with tile caching"
+msgstr "Accellerare la visualizzazione delle mappe con i tile in cache"
+
+#: ../../source/workshop.rst:37
+msgid "OpenLayers & GeoExt"
+msgstr "OpenLayers e GeoExt"
+
+#: ../../source/workshop.rst:39
+msgid "Introduce very basic HTML, CSS and JavaScript"
+msgstr "Introduzione di base a HTML, CSS e JavaScript"
+
+#: ../../source/workshop.rst:40
+msgid ""
+"Use OpenLayers and GeoExt to create a desktop-like map application in a web "
+"browser"
+msgstr ""
+"Utilizzare OpenLayers e GeoExt per creare delle applicazioni quasi desktop "
+"nel browser"
+
+#: ../../source/workshop.rst:44
+msgid "Data package"
+msgstr "Pacchetto dati"
+
+#: ../../source/workshop.rst:46
+msgid ""
+"We will assume that the contents of the workshop package is located on your "
+"desktop::"
+msgstr ""
+"Assumiamo che i contenuti del workshop siano presenti sul vostro desktop::"
+
+#: ../../source/workshop.rst:50
+msgid ""
+"In this case, ``<user>`` is your local user's home directory. In a Windows "
+"installation, this is typically::"
+msgstr ""
+"In questo caso, ``<user>`` è la vostra home directory dell'utente locale. In "
+"un'installazione Windows, tipicamente, questa è::"
+
+#: ../../source/workshop.rst:54
+msgid "For example::"
+msgstr "Per esempio::"
+
+#: ../../source/workshop.rst:58
+msgid ""
+"We wil refer to the workshop directory as ``<workshop>`` throughout the "
+"course."
+msgstr ""
+"Prenderemo come riferimento del workshop la directory ``<workshop>`` durante "
+"il corso."
+
+#: ../../source/workshop.rst:60
+msgid ""
+"In some cases, we'll be adding and/or saving files to a Tomcat virtual "
+"directory. This is located at::"
+msgstr ""
+"In alcuni casi aggiungeremo e/o salveremo dei file nella directory virtuale "
+"di Tomcat. Questa è situata in::"
+
+#: ../../source/workshop.rst:64
+msgid "or more generally at::"
+msgstr "o più in generale in::"
+
+#: ../../source/workshop.rst:69
+msgid ""
+"On Linux, the data directory is located at :file:`/var/lib/opengeo/"
+"geoserver`, and on OS X, at :file:`~/Library/Application Support/GeoServer/"
+"data_dir`"
+msgstr ""
+"Su Linux, la directory data è situata in :file:`/var/lib/opengeo/geoserver`, "
+"e su OS X in:file:`~/Library/Application Support/GeoServer/data_dir`"
+
+#: ../../source/workshop.rst:72
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../source/workshop.rst:74
+msgid "``<workshop>\\data`` - Spatial data used in the examples."
+msgstr "``<workshop>\\data`` - Dati spaziali utilizzati negli esempi."
+
+#: ../../source/workshop.rst:75
+msgid "``<workshop>\\doc`` - Workshop text (this document)."
+msgstr "``<workshop>\\doc`` - Testi del workshop (questo documento)."
+
+#: ../../source/workshop.rst:76
+msgid "``<workshop>\\html`` - Template HTML files and images."
+msgstr "``<workshop>\\html`` - I file del template HTML and le immagini."
+
+#: ../../source/workshop.rst:77
+msgid "``<workshop>\\sql`` - SQL files used in the PostGIS section."
+msgstr ""
+"``<workshop>\\sql`` - I file SQL utilizzati nella sezione dedicata a PostGIS."
+
+#: ../../source/workshop.rst:78
+msgid ""
+"``<workshop>\\styles`` - Styling directives for the spatial data used "
+"throughout this workshop."
+msgstr ""
+"``<workshop>\\styles`` - Regole di stile per i dati spaziali utilizzate "
+"durante questo workshop."

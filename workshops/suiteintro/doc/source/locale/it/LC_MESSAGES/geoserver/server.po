@@ -1,0 +1,245 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/server.rst:4
+msgid "Server basics"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:6
+msgid ""
+"In this section, we'll have a brief discussion of what a web server is and "
+"how it works."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:9
+msgid "Web Servers"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:11
+msgid ""
+"A web server is a program that serves content (web pages, images, files, "
+"data, etc.) using HTTP (Hypertext Transfer Protocol). When you use your "
+"browser to connect to a website, you contact a web server. The web server "
+"takes the request, interprets it, and returns a response, which the browser "
+"renders on the screen."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:15
+msgid "Web server request life-cycle"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:17
+msgid ""
+"For example, when you request a web page, your request takes the form of a "
+"URL::"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:21
+msgid ""
+"The web server looks to its file system, and if that request points to a "
+"valid file (if :file:`page.html` exists in :file:`some/path`), the contents "
+"of that file will be returned via HTTP.  Usually these calls come from a "
+"browser, in which case the result is rendered in the browser."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:23
+msgid ""
+"It is possible to request many different kind of files through HTTP, not "
+"just HTML pages::"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:29
+msgid ""
+"If your browser is configured to display the type of file, it will be "
+"displayed, otherwise you will usually be asked to download the file to your "
+"host system."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:31
+msgid ""
+"The most popular web servers used today are `Apache HTTP Server "
+"<http://httpd.apache.org/>`_ and `Internet Information Services (IIS) "
+"<http://www.iis.net/>`_."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:34
+msgid "Web Mapping Servers"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:36
+msgid ""
+"A web mapping server is a specialized subset of the web server model. Like a"
+" web server, requests are sent to the server, they are interpreted and "
+"responded to."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:38
+msgid ""
+"The key differences between a web-mapping server and a standard web-server "
+"are that:"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:40
+msgid ""
+"Responses aren't documents or files (.HTML, .ZIP, .MP3, etc.), but "
+"geographic data."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:41
+msgid ""
+"The request is a bit more specific than ``http://server/file.extension``"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:43
+msgid ""
+"Because it wouldn't be useful to simply say \"Give me all the geography "
+"ever\", we use specific, structured protocols to request discrete portions "
+"of geography from the web-mapping server."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:45
+msgid ""
+"Protocols that can be employed to make requests for geographic data include "
+"**Web Map Service (WMS)** and **Web Feature Service (WFS)**."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:49
+msgid "A typical request life-cycle"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:51
+msgid "Some popular web mapping servers:"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:53
+msgid "`GeoServer <http://geoserver.org>`_"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:54
+msgid "`MapServer <http://mapserver.org>`_"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:55
+msgid "`Mapnik <http://mapnik.org>`_"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:56
+msgid ""
+"`ArcGIS Server "
+"<http://www.esri.com/software/arcgis/arcgisserver/index.html>`_"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:59
+msgid "GeoServer as Web Map Server"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:61
+msgid ""
+"GeoServer is a specific implementation of a web mapping server, offering "
+"access to data in a known set of formats and sources (files and databases) "
+"using specific protocols."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:63
+msgid ""
+"In a way, GeoServer acts as an abstraction layer. It allows standards-based "
+"methods of accessing geospatial data regardless of the source data type."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:66
+msgid "Data Sources"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:68
+msgid ""
+"GeoServer can read from many different data sources, from files on the local"
+" disk to external databases."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:70
+msgid ""
+"The following is a list of the most common data formats supported by "
+"GeoServer. This list is by no means exhaustive."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:72
+msgid "Files"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:74
+msgid "Shapefile"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:75
+msgid "GeoTIFF"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:76
+msgid "ArcGrid"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:77
+msgid "JPEG2000"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:78
+msgid "GDAL formats"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:80
+msgid "Databases"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:82
+msgid "PostGIS"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:83
+msgid "ArcSDE"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:84
+msgid "Oracle Spatial"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:85
+msgid "DB2"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:86
+msgid "SQL Server"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:89
+msgid "OGC Protocols"
+msgstr ""
+
+#: ../../source/geoserver/server.rst:91
+msgid ""
+"GeoServer implements standard open web protocols established by the `Open "
+"Geospatial Consortium (OGC) <http://www.opengeospatial.org/>`_), a standards"
+" organization."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:93
+msgid ""
+"GeoServer contains a high-performance certified compliant Web Map Service "
+"(WMS), and is in fact the reference implementation of the OGC Web Feature "
+"Service (WFS) and Web Coverage Service (WCS) standards."
+msgstr ""
+
+#: ../../source/geoserver/server.rst:95
+msgid ""
+"The next sections will provide an overview of the two protocols most "
+"commonly used by GeoServer."
+msgstr ""

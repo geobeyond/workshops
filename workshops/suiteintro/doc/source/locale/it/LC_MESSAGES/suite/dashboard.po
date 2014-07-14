@@ -1,0 +1,139 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: 2014-06-23 16:32+0100\n"
+"Last-Translator: Francesco Bartoli <francesco.bartoli@geobeyond.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+
+#: ../../source/suite/dashboard.rst:4 ../../source/suite/dashboard.rst:19
+msgid "OpenGeo Suite Dashboard"
+msgstr "Dashboard della OpenGeo Suite"
+
+#: ../../source/suite/dashboard.rst:6
+msgid ""
+"OpenGeo Suite comes with a Dashboard, a lightweight web application that "
+"provides links to the most common applications and documentation."
+msgstr ""
+"La OpenGeo Suite è equipaggiata con una Dashboard, ossia una leggerissima "
+"applicazione Web che fornisce i link alla maggior parte delle applicazioni "
+"dello stack e alla documentazione."
+
+#: ../../source/suite/dashboard.rst:8
+msgid ""
+"As we introduce the Dashboard, take some time to explore it by clicking "
+"around."
+msgstr ""
+"Dal momento che introdurremo la Dashboard potete cominciare a prendere "
+"confidenza esplorando e navigando i link."
+
+#: ../../source/suite/dashboard.rst:10
+msgid ""
+"The Dashboard can be opened from the Start menu at :menuselection:`OpenGeo "
+"Suite --> Dashboard`. The Dashboard is also available in the browser by "
+"navigating to ``http://localhost:8080/``."
+msgstr ""
+"La Dashboard può essere aperta dallo Start menu in :menuselection:`OpenGeo "
+"Suite --> Dashboard`. Essa è inoltre disponibile nel browser navigando il "
+"link ``http://localhost:8080/``."
+
+#: ../../source/suite/dashboard.rst:13
+msgid "Home screen"
+msgstr "Schermata iniziale"
+
+#: ../../source/suite/dashboard.rst:15
+msgid ""
+"The main Dashboard page show links to PostGIS configuration and "
+"documentation for PostGIS, GeoServer, GeoWebCache, and GeoExplorer."
+msgstr ""
+"La pagina principale della Dashboard mostra i link alla configurazione di "
+"PostGIS e alla documentazione di PostGIS, GeoServer, GeoWebCache, e "
+"GeoExplorer."
+
+#: ../../source/suite/dashboard.rst:21
+msgid ""
+"A link to pgAdmin is not included here because the Dashboard can only launch "
+"web pages, not desktop applications. pgAdmin can be launched from the Start "
+"Menu."
+msgstr ""
+"Non è presente un link a pgAdmin poichè la Dashboard può aprire solo pagine "
+"Web e non applicazioni Desktop. pgAdmin può essere eseguito dallo Start Menu."
+
+#: ../../source/suite/dashboard.rst:24
+msgid "Getting started"
+msgstr "Inizio"
+
+#: ../../source/suite/dashboard.rst:26
+msgid ""
+"The Getting Started screen includes a sample workflow to use for publishing "
+"data and maps using OpenGeo Suite. A similar workflow will be followed as "
+"part of this workshop."
+msgstr ""
+"La scherma di inizio prevede un semplice flusso di lavoro per pubblicare "
+"dati e mappe utilizzando la Suite. Un simile processo di lavoro può essere "
+"compiuto come parte del presente workshop."
+
+#: ../../source/suite/dashboard.rst:29
+msgid "About"
+msgstr "Informazioni"
+
+#: ../../source/suite/dashboard.rst:31
+msgid ""
+"The About page contains information about OpenGeo Suite and Boundless, the "
+"company behind OpenGeo Suite."
+msgstr ""
+"La pagina Informazioni contiene notizie riguardanti la OpenGeo Suite e "
+"Boundless, l'azienda che la sviluppa."
+
+#: ../../source/suite/dashboard.rst:34
+msgid "Other ways of accessing components"
+msgstr "Altri modi di accedere i suoi componenti"
+
+#: ../../source/suite/dashboard.rst:36
+msgid ""
+"The OpenGeo Suite Dashboard is designed as a convenience to users, but it is "
+"not the only way to access components."
+msgstr ""
+"La Dashboard è progettata per essere una scorciatoia conveniente per gli "
+"utenti ma non costituisce l'unico modo di accedere i suoi componenti."
+
+#: ../../source/suite/dashboard.rst:38
+msgid ""
+"**Desktop tools** such as **pgAdmin** and **pgShapeloader** can be launched "
+"through the Start Menu under :menuselection:`OpenGeo Suite --> pgAdmin/"
+"pgShapeloader`."
+msgstr ""
+"**Strumenti Desktop** come **pgAdmin** e **pgShapeloader** possono essere "
+"eseguiti dallo Start Menu sotto :menuselection:`OpenGeo Suite --> pgAdmin/"
+"pgShapeloader`."
+
+#: ../../source/suite/dashboard.rst:40
+msgid ""
+"All **web applications** such as **GeoServer** can be accessed directly "
+"through the browser. OpenGeo Suite runs locally at the port where it was "
+"installed (the default is 8080). Some helpful URLs for this workshop are:"
+msgstr ""
+"Tutte le **applicationi Web** come **GeoServer** possono essere accedute "
+"direttamente dal browser. La OpenGeo Suite è eseguita localmente sulla porta "
+"dove è stata installata (la configurazione base è 8080). Alcune utili URL "
+"per questo workshop sono: "
+
+#: ../../source/suite/dashboard.rst:42
+msgid "GeoServer - ``http://localhost:8080/geoserver``"
+msgstr "GeoServer - ``http://localhost:8080/geoserver``"
+
+#: ../../source/suite/dashboard.rst:43
+msgid "GeoWebCache - ``http://localhost:8080/geowebcache``"
+msgstr "GeoWebCache - ``http://localhost:8080/geowebcache``"
+
+#: ../../source/suite/dashboard.rst:44
+msgid "GeoExplorer - ``http://localhost:8080/geoexplorer``"
+msgstr "GeoExplorer - ``http://localhost:8080/geoexplorer``"

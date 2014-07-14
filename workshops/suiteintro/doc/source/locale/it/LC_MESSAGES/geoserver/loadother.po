@@ -1,0 +1,35 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/loadother.rst:4
+msgid "Other supported data formats"
+msgstr ""
+
+#: ../../source/geoserver/loadother.rst:6
+msgid ""
+"We've only touched on two of the data formats that GeoServer supports. "
+"Here's a quick look at some of the other data stores you can publish through"
+" GeoServer:"
+msgstr ""
+
+#: ../../source/geoserver/loadother.rst:10
+msgid "Current list of data stores supported by GeoServer"
+msgstr ""
+
+#: ../../source/geoserver/loadother.rst:12
+msgid ""
+"This list is not exhaustive.  New datastore connections are developed every "
+"so often, and more are planned for the future.  All major spatial database "
+"vendors (**SQL Server**, **Oracle**, **ArcSDE**, **Teradata**, etc.) are "
+"supported in GeoServer."
+msgstr ""

@@ -1,0 +1,254 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/postgis/spatialdbs.rst:4
+msgid "Spatial Databases"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:6
+msgid ""
+"In this section we'll look at the factors that make a spatial database "
+"special."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:9
+msgid "What is a spatial database?"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:11
+msgid "What makes an ordinary database a spatial database?"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:15
+msgid "Is it...mojo?"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:17
+msgid ""
+"Spatial databases store and manipulate spatial objects like any other object"
+" in the database."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:19
+msgid ""
+"There are three extra factors that allow spatial objects to exist natively "
+"in a database:"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:21
+msgid ""
+"**Spatial data types**, for storing shapes like points, lines, and polygons "
+"in geometry columns"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:22
+msgid ""
+"**Spatial functions**, posed in `SQL <http://en.wikipedia.org/wiki/SQL>`_ "
+"(Structured Query Language) for querying spatial properties and "
+"relationships"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:23
+msgid ""
+"**Spatial indexes**, used for efficient processing of spatial operations"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:26
+msgid "Spatial data types"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:28
+msgid ""
+"**Spatial data types** store shapes like points, lines, and polygons in "
+"geometry columns.  They can be understood simply as a binary representation "
+"of a shapes in a database row (with location)."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:32
+msgid "Database with geometry (conceptual)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:34
+msgid ""
+"Spatial data types are organized in a type hierarchy. Each sub-type inherits"
+" the structure (properties) and the behavior (methods or functions) of its "
+"super-type."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:39
+msgid "Data type hierarchy"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:42
+msgid "Spatial functions"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:44
+msgid ""
+"**Spatial functions**, posed in SQL, are for querying spatial properties and"
+" relationships."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:46
+msgid ""
+"To manipulate data during a query, an ordinary database provides "
+"**functions** for operations such as (but not limited to):"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:48
+msgid "Operating mathematically on numbers"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:49
+msgid "Extracting information from dates"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:50
+msgid "Working with strings"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:52
+msgid ""
+"In addition to these \"base type\" functions, a spatial database provides a "
+"functions for operating on geometries."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:54
+msgid ""
+"Spatial functions are commonly categorized by their category of operation:"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:56
+msgid "**Management**"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:58
+msgid "Read the current version information (**PostGIS_Version**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:60
+msgid "**Conversion**"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:62
+msgid "Show the text representation of this point (**ST_AsText**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:63
+msgid ""
+"Convert this text string into a valid PostGIS geometry (**ST_GeomFromText**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:65
+msgid "**Retrieval**"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:67
+msgid "How long is this line? (**ST_Length**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:68
+msgid "What is the perimeter of Uzbekistan? (**ST_Perimeter**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:70
+msgid "**Comparison**"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:72
+msgid "Is France next to Finland? (**ST_Touches**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:73
+msgid "Is Paris in China? (**ST_Contains**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:75
+msgid "**Generation**"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:77
+msgid "Calculate a 20km exclusion limit around Moose Factory! (**ST_Buffer**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:78
+msgid "Consolidate New York and New Jersey! (**ST_Union**)"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:81
+msgid "Spatial Indexes"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:83
+msgid ""
+"Multi-dimensional **spatial indexes** are used for efficient processing of "
+"spatial operations."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:85
+msgid ""
+"Indexes for basic data types such as numbers, strings, and dates are "
+"relatively easy to compute, as their natural sort orders are simple to "
+"determine.  Every value is less than, greater than, or equal to every other "
+"value."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:87
+msgid "A decent analogy is an indexing system that we likely use daily:"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:91
+msgid "A typical sorting algorithm known as \"alphabetical order\""
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:93
+msgid ""
+"Indexes for geometries are not so simple. Since polygons can overlap, can be"
+" contained in one another, and are arrayed in a two-dimensional (or greater)"
+" space, the notion of a natural sort order doesn't apply."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:95
+msgid ""
+"Spatial indexes work around this added complexity by computing and comparing"
+" each feature's bounding box (BBOX).  A bounding box is the smallest sized "
+"rectangle capable of containing a given feature in its entirety."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:97
+msgid ""
+"Even the most complex polygons and linestrings can be represented by a "
+"simple bounding box."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:101
+msgid "Bounding boxes of geographical features"
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:103
+msgid ""
+"Bounding boxes are used to answer questions such as \"Which countries are "
+"next to France?\", since the question is very computationally intensive for "
+"polygons and complex lines, but much simpler in the case of rectangles.  "
+"However, the comparison of bounding rectangles isn't as accurate as "
+"comparing exact geometries.  So spatial indexes provide approximate results "
+"in a first pass, which are then honed to an exact result in a second pass."
+msgstr ""
+
+#: ../../source/postgis/spatialdbs.rst:105
+msgid ""
+"With large, complex datasets, it is *much faster* to compute exact results "
+"from the subset of approximate candidates obtained through bounding box "
+"analysis, rather than to sequentially scan relationships between entire "
+"feature-sets in one pass."
+msgstr ""

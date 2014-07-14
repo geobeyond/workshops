@@ -1,0 +1,154 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/styling.rst:4
+msgid "Styling Layers in GeoServer"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:6
+msgid ""
+"GeoServer can render geospatial data as images and return them for viewing "
+"in a browser. This is the heart of the Web Map Server (WMS).  However, "
+"geospatial data has no inherent instructions for visualization, therefore "
+"additional information, in the form of a style, needs to be applied to data "
+"for it to be displayed a certain way."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:8
+msgid ""
+"GeoServer uses the Styled Layer Descriptor (SLD) markup language to describe"
+" geospatial data."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:10
+msgid "In this section, we will:"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:12
+msgid "Load an SLD file for (most of) our layers,"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:13
+msgid "Have a quick look at the syntax of SLD, and"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:14
+msgid "Apply those styles to our layers."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:17
+msgid "Loading Styles"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:19
+msgid "From the GeoServer menu, click on the :guilabel:`Styles` link,"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:23
+msgid "The list of all styles currently defined in GeoServer opens."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:27
+msgid ""
+"Find the ``earth_cities`` style in your list. Click the entry to open the "
+"SLD **Style Editor**."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:31
+msgid "Two properties should be pretty evident here:"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:33
+msgid "The **Name** of the style,"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:34
+msgid "What/where the **SLD** is."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:36
+msgid "Have a look at the layout of the SLD. What do we notice?"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:38
+msgid "It looks like XML"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:39
+msgid "There are a few standard tags/attributes"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:40
+msgid "Some specific symbology instructions happen in the middle"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:41
+msgid "It's not terse"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:43
+msgid ""
+"This is a very basic SLD that universally renders a *square* in *dark "
+"yellow*.  We could start editing the SLD by hand to change some of this "
+"around, but there's an easier way to see differences in visualization.  At "
+"the bottom of this page, click the :guilabel:`Choose File` button and locate"
+" the file ``<workshop>\\styles\\cities.sld``. Select it and click "
+":guilabel:`Open`."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:47
+msgid "Don't jump to the Submit button yet. Patience."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:49
+msgid "Now click the :guilabel:`Upload ...` link."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:53
+msgid ""
+"The contents of the SLD editor, are replaced by the contents of the SLD file"
+" which contains \"far more elegant\" styling instructions than the default."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:57
+msgid ""
+"It's a good idea to click the :guilabel:`Validate` button to ensure that the"
+" code doesn't contain any errors."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:59
+msgid ""
+"Click the :guilabel:`Submit` button to save the uploaded SLD into the "
+"current style definition."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:63
+msgid ""
+"The updated definition is saved as an SLD file on your local machine in "
+":file:`<user>\\\\.opengeo\\\\data_dir\\\\styles\\\\`."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:65
+msgid ""
+"Repeat this process for both the ``earth_countries`` and ``earth_ocean`` "
+"styles. The source SLDs should be in your :file:`<workshop>\\\\styles\\\\` "
+"directory."
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:67
+msgid "Preview one/all/some of the layers. How do they look now?"
+msgstr ""
+
+#: ../../source/geoserver/styling.rst:71
+msgid "Now you've got style!"
+msgstr ""

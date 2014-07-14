@@ -1,0 +1,154 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: 2014-06-22 15:51+0100\n"
+"Last-Translator: Francesco Bartoli <francesco.bartoli@geobeyond.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../source/moreinfo.rst:4
+msgid "For more information"
+msgstr "Per maggiori informazioni"
+
+#: ../../source/moreinfo.rst:6
+msgid ""
+"For more information on Boundless and the software communities we support, "
+"please see the following links."
+msgstr ""
+"Per avere maggiori informazioni su Boundless e le community del software che "
+"supportiamo, puoi visitare i seguenti link."
+
+#: ../../source/moreinfo.rst:9
+msgid "Projects"
+msgstr "Progetti"
+
+#: ../../source/moreinfo.rst:11
+msgid "`PostGIS <http://postgis.net>`_"
+msgstr "`PostGIS <http://postgis.net>`_"
+
+#: ../../source/moreinfo.rst:13
+msgid "http://boundlessgeo.com/solutions/solutions-software/postgis/"
+msgstr "http://boundlessgeo.com/solutions/solutions-software/postgis/"
+
+#: ../../source/moreinfo.rst:15
+msgid "`GeoServer <http://geoserver.org/>`_"
+msgstr "`GeoServer <http://geoserver.org/>`_"
+
+#: ../../source/moreinfo.rst:17
+msgid "http://boundlessgeo.com/solutions/solutions-software/geoserver/"
+msgstr "http://boundlessgeo.com/solutions/solutions-software/geoserver/"
+
+#: ../../source/moreinfo.rst:19
+msgid "`GeoWebCache <http://geowebcache.org/>`_"
+msgstr "`GeoWebCache <http://geowebcache.org/>`_"
+
+#: ../../source/moreinfo.rst:21
+msgid "http://boundlessgeo.com/solutions/solutions-software/geowebcache/"
+msgstr "http://boundlessgeo.com/solutions/solutions-software/geowebcache/"
+
+#: ../../source/moreinfo.rst:23
+msgid "`OpenLayers <http://openlayers.org/>`_"
+msgstr "`OpenLayers <http://openlayers.org/>`_"
+
+#: ../../source/moreinfo.rst:25
+msgid "http://boundlessgeo.com/solutions/solutions-software/openlayers/"
+msgstr "://boundlessgeo.com/solutions/solutions-software/openlayers/"
+
+#: ../../source/moreinfo.rst:27
+msgid "`GeoExt <http://geoext.org/>`_"
+msgstr "`GeoExt <http://geoext.org/>`_"
+
+#: ../../source/moreinfo.rst:29
+msgid "http://boundlessgeo.com/solutions/solutions-software/geoext/"
+msgstr "http://boundlessgeo.com/solutions/solutions-software/geoext/"
+
+#: ../../source/moreinfo.rst:33
+msgid "User mailing lists"
+msgstr "Mailing list per gli utenti"
+
+#: ../../source/moreinfo.rst:35
+msgid "PostGIS: http://lists.osgeo.org/mailman/listinfo/postgis-users/"
+msgstr "PostGIS: http://lists.osgeo.org/mailman/listinfo/postgis-users/"
+
+#: ../../source/moreinfo.rst:36
+msgid ""
+"GeoServer: https://lists.sourceforge.net/lists/listinfo/geoserver-users/"
+msgstr ""
+"GeoServer: https://lists.sourceforge.net/lists/listinfo/geoserver-users/"
+
+#: ../../source/moreinfo.rst:37
+msgid ""
+"GeoWebCache: https://lists.sourceforge.net/lists/listinfo/geowebcache-users/"
+msgstr ""
+"GeoWebCache: https://lists.sourceforge.net/lists/listinfo/geowebcache-users/"
+
+#: ../../source/moreinfo.rst:38
+msgid "OpenLayers: http://lists.osgeo.org/mailman/listinfo/openlayers-users/"
+msgstr "OpenLayers: http://lists.osgeo.org/mailman/listinfo/openlayers-users/"
+
+#: ../../source/moreinfo.rst:39
+msgid "GeoExt: http://www.geoext.org/cgi-bin/mailman/listinfo/users/"
+msgstr "GeoExt: http://www.geoext.org/cgi-bin/mailman/listinfo/users/"
+
+#: ../../source/moreinfo.rst:42
+msgid "Developer mailing lists"
+msgstr "Mailing list per gli sviluppatori"
+
+#: ../../source/moreinfo.rst:44
+msgid "PostGIS: http://lists.osgeo.org/mailman/listinfo/postgis-devel/"
+msgstr "PostGIS: http://lists.osgeo.org/mailman/listinfo/postgis-devel/"
+
+#: ../../source/moreinfo.rst:45
+msgid ""
+"GeoServer: https://lists.sourceforge.net/lists/listinfo/geoserver-devel/"
+msgstr ""
+"GeoServer: https://lists.sourceforge.net/lists/listinfo/geoserver-devel/"
+
+#: ../../source/moreinfo.rst:46
+msgid ""
+"GeoWebCache: https://lists.sourceforge.net/lists/listinfo/geowebcache-devel/"
+msgstr ""
+"GeoWebCache: https://lists.sourceforge.net/lists/listinfo/geowebcache-devel/"
+
+#: ../../source/moreinfo.rst:47
+msgid "OpenLayers: http://lists.osgeo.org/mailman/listinfo/openlayers-dev/"
+msgstr "OpenLayers: http://lists.osgeo.org/mailman/listinfo/openlayers-dev/"
+
+#: ../../source/moreinfo.rst:48
+msgid "GeoExt: http://www.geoext.org/cgi-bin/mailman/listinfo/dev/"
+msgstr "GeoExt: http://www.geoext.org/cgi-bin/mailman/listinfo/dev/"
+
+#: ../../source/moreinfo.rst:51
+msgid "Boundless"
+msgstr "Boundless"
+
+#: ../../source/moreinfo.rst:53
+msgid ""
+"We build the best open source geospatial software designed for enterprise "
+"deployments."
+msgstr ""
+"Sviluppiamo il miglior software open source geospaziale progettato per "
+"ambienti enterprise."
+
+#: ../../source/moreinfo.rst:54
+msgid "Visit us at http://boundlessgeo.com/"
+msgstr "Visita il nostro sito http://boundlessgeo.com/"
+
+#: ../../source/moreinfo.rst:55
+msgid ""
+"More about OpenGeo Suite at http://boundlessgeo.com/solutions/opengeo-suite/"
+msgstr ""
+"Per saperne di più sulla OpenGeo Suite http://boundlessgeo.com/solutions/"
+"opengeo-suite/"
+
+#: ../../source/moreinfo.rst:56
+msgid "More education materials at http://workshops.boundlessgeo.com/"
+msgstr ""
+"Per consultare altro materiale didattico http://workshops.boundlessgeo.com/"

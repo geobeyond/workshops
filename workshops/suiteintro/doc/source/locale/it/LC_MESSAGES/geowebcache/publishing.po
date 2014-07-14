@@ -1,0 +1,180 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geowebcache/publishing.rst:4
+msgid "Caching On-Demand"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:6
+msgid ""
+"GeoWebCache is integrated into GeoServer and activated by default. This "
+"means that just by using GeoServer, requesting map tiles through WMS, those "
+"tiles are stored via the integrated GeoWebCache and are available for future"
+" requests."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:9
+msgid "Turn off automatic caching"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:11
+msgid ""
+"In the GeoServer web admin, click :guilabel:`Caching Defaults` under "
+":guilabel:`Tile Caching` to see the entries for global caching."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:13
+msgid ""
+"For the purposes of this exercise, **uncheck the first of the four "
+":guilabel:`Provided Services`** (direct integration with GeoServer WMS). "
+"This will turn off automatic WMS caching and allow us to see the difference "
+"in performance between cached map tiles and uncached map tiles."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:17
+msgid "Integrated caching settings in GeoServer"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:19
+msgid ""
+"In this section we'll configure a GeoExplorer map to use cached images from "
+"GeoWebCache over top of our local WMS, and then compare cached delivery "
+"times with full WMS requests."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:22
+msgid "Adding a GWC Server"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:24
+msgid "To publish a cached map, let's return to GeoExplorer."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:26
+msgid "Make sure you're logged in and working with a :guilabel:`new` map"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:28
+msgid "Click the :guilabel:`Add Layers` button in the layers window pane."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:30
+msgid ""
+"In the :guilabel:`Available Layers` panel, click the :guilabel:`Add a New "
+"Server` button."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:34
+msgid "Adding a new WMS server"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:36
+msgid "In the :guilabel:`URL` field, enter the URL of our cached layers::"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:40
+msgid "Click :guilabel:`Add Server`, to connect to the GeoWebCache server."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:44
+msgid "Our WMS server endpoint"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:46
+msgid ""
+"A familiar list of layers will display. The layers in GeoWebCache are the "
+"configured GeoServer layers currently being served by GeoServer. This list "
+"of layers is identical to both the GeoWebCache configuration page and the "
+"GeoServer WMS layer list."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:48
+msgid ""
+"Highlight the layers we added previously from the pure WMS, click "
+":guilabel:`Add Layers` and then :guilabel:`Done`."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:52
+msgid "Our layers in the GeoExplorer Available Layers dialog"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:54
+msgid ""
+"Right-click on the :guilabel:`earthgroup`, and select :guilabel:`Zoom to "
+"Layer Extent`."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:58
+msgid "Layer context menu"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:60
+msgid "You should see a happy map of the world."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:64
+msgid "Map with layers added"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:66
+msgid "Click the :guilabel:`Export Map` icon."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:68
+msgid ""
+"Select your toolbar items, and then click :guilabel:`Next` to view HTML "
+"block used to embed your map in a web page."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:72
+msgid "Export map dialog"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:74
+msgid ""
+"Copy the ``<iframe>`` HTML. We will be pasting this text (or something very "
+"similar) into our **GNN** page:"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:83
+msgid ""
+"Return to your text editor and scroll down to about line 32. **Above** the "
+"previous ``iframe`` paste the latest HTML code. You should now have two maps"
+" in your GNN page: the first served by GeoWebCache, the second served by "
+"GeoServer."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:87
+msgid "HTML source code with two <iframes>"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:89
+msgid "Save your **GNN** page and refresh your browser."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:93
+msgid "A happier web page"
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:95
+msgid ""
+"Get your two maps to roughly the same extent. Zoom and pan the first map, "
+"and then zoom and pan the second map. You might notice a rendering delay the"
+" first time you request a new area on the map that uses caching, but that "
+"delay won't happen if you return to the same area. That is not the case with"
+" the original map, where rendering times remain consistently slower."
+msgstr ""
+
+#: ../../source/geowebcache/publishing.rst:99
+msgid "Two maps, but only one is accelerated"
+msgstr ""

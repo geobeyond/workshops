@@ -1,0 +1,202 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/loadfile.rst:4
+msgid "Publishing data from a file"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:8
+msgid ""
+"In this section, we will load a single GeoTIFF from the file-system. This "
+"GeoTIFF contains shaded relief for a land area, using standard tri-band RGB "
+"values (0-255)."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:11
+msgid "Adding a store"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:13
+msgid "A GeoTIFF is a store that contains a single layer."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:15
+msgid ""
+"From the :ref:`geoserver.webadmin` page, click on the :guilabel:`Stores` "
+"link on the left side, under :guilabel:`Data`."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:19
+msgid "Click this link to go to the Stores page"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:21
+msgid "Click on :guilabel:`Add new store`."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:25
+msgid "Stores page"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:27
+msgid "Select :guilabel:`GeoTIFF` under :guilabel:`Raster Data Sources`."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:31
+msgid "Adding a GeoTIFF store"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:33
+msgid "Fill out the form as follows:"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:38
+msgid ":guilabel:`Workspace`"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:39
+msgid "``earth``"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:40
+msgid "Should be the default."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:41
+msgid ":guilabel:`Data Source Name`"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:42
+msgid "``shadedrelief``"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:43
+msgid ""
+"This can be anything, but it makes sense to match this with the name of the "
+"file."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:44
+msgid ":guilabel:`Enabled`"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:45
+msgid "*Checked*"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:46
+msgid ""
+"Ensures the layer is published.  Unchecking will save configuration "
+"information only."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:47
+msgid ":guilabel:`Description`"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:48
+msgid "Add any layer description."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:49
+msgid "Layer metadata is recommended but not required."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:51
+msgid ""
+"In the box marked :guilabel:`URL`, type in the full path to the GeoTIFF, or "
+"click the :guilabel:`Browse` button to navigate to the file.  This may be "
+"something like::"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:57
+msgid "Configuring a GeoTIFF store"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:59
+msgid "When finished, click :guilabel:`Save`."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:62
+msgid "Publishing a layer"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:64
+msgid ""
+"After the store is loaded, we need to configure how it is published as a "
+"layer."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:66
+msgid ""
+"On the next screen, a list of layers in the store is displayed. Since we are"
+" working with a GeoTIFF, there is only a single layer. Click the "
+":guilabel:`Publish` link to configure the layer."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:70
+msgid "Selecting a layer to publish"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:72
+msgid ""
+"This is the layer configuration page. There are many settings on this page, "
+"most of which we don't need to work with just now. We will return to some of"
+" these settings later.  Fill out the form with the following information:"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:74
+msgid "Set the :guilabel:`Declared SRS` to ``EPSG:4326`` if it isn't already."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:76
+msgid ""
+"Set the :guilabel:`SRS handling` to :guilabel:`Force declared`, again if not"
+" already set."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:78
+msgid ""
+"In the :guilabel:`Bounding Boxes` section, click on the :guilabel:`Compute "
+"from data` and :guilabel:`Compute from native bounds` links to set the "
+"bounding box of the layer."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:82
+msgid "Configuring a layer to publish"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:84
+msgid ""
+"When finished, click :guilabel:`Save`. Your GeoTIFF is now published in "
+"GeoServer!"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:87
+msgid "Preview your Work"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:89
+msgid ""
+"You can now view the layer using the integrated OpenLayers client (using "
+"WMS) via the GeoServer Layer Preview.  Clicking on the map will display the "
+"RGB values for that particular point."
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:93
+msgid "Viewing the published layer in OpenLayers"
+msgstr ""
+
+#: ../../source/geoserver/loadfile.rst:95
+msgid "Your GeoTIFF has been successfully published in GeoServer!"
+msgstr ""

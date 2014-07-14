@@ -1,0 +1,244 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geowebcache/basics.rst:4
+msgid "Caching concepts"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:6
+msgid ""
+"In this section we'll review three concepts that are crucial to "
+"understanding map caching in general:"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:8
+msgid ""
+"**Tile proxying** - How GeoWebCache integrates with GeoServer's WMS "
+"rendering process."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:9
+msgid "**Tile generation** - How GeoWebCache saves pre-rendered map images."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:10
+msgid ""
+"**Tiling strategies** - How you can configure the areas are that are cached "
+"and when to do so."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:13
+msgid "Tile proxying"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:15
+msgid ""
+"GeoWebCache acts like a proxy between clients and one (or more) WMS servers."
+" It sits between the client requesting the image and the server creating the"
+" image. When the client (e.g. an OpenLayers map) makes a request, "
+"GeoWebCache first checks to see whether it already has the corresponding "
+"image. If GeoWebCache has the image in its cache, it sends it to the client "
+"immediately, without communicating with the upstream WMS. Otherwise, the "
+"request is forwarded to the appropriate WMS server for generating. When the "
+"WMS response comes back, GeoWebCache saves a copy (caches) and sends it on "
+"to the client."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:19
+msgid "Workflow of GeoWebCache"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:21
+msgid "Simply delivering a cached image is much faster than:"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:23
+msgid "Polling the data"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:24
+msgid "Interpreting styling instructions"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:25
+msgid "Drawing the image"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:27
+msgid "And then delivering the image."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:29
+msgid ""
+"Not only is this faster, it requires fewer resources on the WMS server. "
+"Under specific situations, one could disconnect the WMS entirely!"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:32
+msgid "Tile generation"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:34
+msgid ""
+"Map tiling describes the way images are pre-rendered and saved in the tile "
+"cache."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:36
+msgid ""
+"Maps are cached as small rectangular image tiles, which combine to form "
+"larger maps."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:40
+msgid "Tiling in a Longitude/Latitude coordinate system"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:42
+msgid ""
+"Map tiles are not just cached at a single resolution. They're cached at more"
+" than one scale so that users can zoom in and out of tile levels without "
+"resampling."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:46
+msgid "Tiles and zoom levels"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:48
+msgid ""
+"The cache is stored in your server cache, which is this case is inside the "
+"GeoServer data directory in a directory named ``gwc``."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:51
+msgid "Tiling strategies"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:53
+msgid ""
+"A tiling strategy controls when your tiles are created and for what areas "
+"(geographic extents) they are created. Tile sets can be created "
+"**proactively** (by \"seeding\"), or **on-demand**"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:56
+msgid "Seeding"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:58
+msgid ""
+"Seeding creates tiles prior to requests from clients, so that they will "
+"already be available when the first users start navigating the map. Because "
+"the images exist on the server, there is never any wait time for the tile to"
+" be rendered, and is sent immediately to the client."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:60
+msgid ""
+"While seeding is very responsive to the end-user, there are some "
+"disadvantages to the administrator:"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:62
+msgid "Planning the tile strategy takes time"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:63
+msgid "Creating the tiles takes computing power"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:64
+msgid "Storing the tiles takes disk space"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:67
+msgid "On-Demand caching"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:69
+msgid ""
+"If planning, seeding, and storing cached tiles proactively isn't desired, "
+"GeoWebCache can create map cache tiles \"on-demand\". In this case, the "
+"first user/client to navigate to an uncached area will wait while the "
+"corresponding tiles are drawn by the server, and then delivered to the "
+"browser. Once rendered, the tiles are added to the service's cache folder "
+"and remain on the server until updated or deleted by the server "
+"administrator. Subsequent visitors to that same area will not have to wait "
+"for the tiles to be rendered, because they'll already exist."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:71
+msgid ""
+"The main advantage to on-demand caching is that it requires no "
+"preprocessing, and because only the data requested will be cached it can "
+"potentially save disk space. The disadvantage of on-demand caching is that "
+"because viewing will be slower and then intermittently accelerated it can "
+"effect the quality of the user experience."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:74
+msgid "Which one do I choose?"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:76
+msgid ""
+"Usually, the answer is \"both.\" A combination of both strategies is not "
+"uncommon:"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:78
+msgid ""
+"Certain areas / zoom levels will be seeded (such as heavily requested areas "
+"or low zoom levels)"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:79
+msgid ""
+"Others will be rendered on-demand (such as rarely requested areas, or high "
+"zoom levels)"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:81
+msgid ""
+"Some will pre-cache tiles for heavily visited areas of their map, and create"
+" tiles on-demand for rarely visited areas."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:85
+msgid "A viable tiling strategy"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:88
+msgid "Disk space"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:90
+msgid ""
+"Every zoom level generally adds ``4^[zoom level]`` additional tiles. So the "
+"first zoom level will be one tile, the second will add four, the third will "
+"add 16, the fourth will add 64, etc. If you assume that a map has 12 zoom "
+"levels, that's over 22,000,000 tiles!  If you assume that an average tile is"
+" 20kB in size, that is over 420GB!  Adding in another zoom level adds more "
+"than a terabyte! It is easy to see why a disk space strategy is needed."
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:93
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/geowebcache/basics.rst:95
+msgid ""
+"What happens if the data contributing to a pre-rendred tile changes? How can"
+" we get around this?"
+msgstr ""

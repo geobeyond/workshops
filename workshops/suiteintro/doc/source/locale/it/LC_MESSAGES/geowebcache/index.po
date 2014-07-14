@@ -1,0 +1,39 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geowebcache/index.rst:4
+msgid "Part 5: GeoWebCache"
+msgstr ""
+
+#: ../../source/geowebcache/index.rst:6
+msgid ""
+"GeoWebCache is a tool that boosts the performance of a WMS by pre-drawing "
+"and saving map images for faster responses to client requests."
+msgstr ""
+
+#: ../../source/geowebcache/index.rst:8
+msgid ""
+"In our evolving diagram of OpenGeo Suite architecture, GeoWebCache sits atop"
+" GeoServer's map services brokering map tiles to web-mapping applications in"
+" the client tier."
+msgstr ""
+
+#: ../../source/geowebcache/index.rst:12
+msgid "GeoWebCache in OpenGeo Suite stack"
+msgstr ""
+
+#: ../../source/geowebcache/index.rst:16
+msgid ""
+"GeoWebCache can operate in one of two ways: as a separate \"map proxy\" to "
+"GeoServer and other map servers, and directly integrated with GeoServer."
+msgstr ""

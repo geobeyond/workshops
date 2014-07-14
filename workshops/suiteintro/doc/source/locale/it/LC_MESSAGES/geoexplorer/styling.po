@@ -1,0 +1,184 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/styling.rst:4
+msgid "Styling Layers"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:6
+msgid ""
+"We styled our ``earth`` vector layers in GeoServer using existing SLD files;"
+" however, our ``smallworld`` layer remains stark and unattractive."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:8
+msgid ""
+"In this section we'll use GeoExplorer's graphic styling tool to apply "
+"cartographic styles to a layer."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:11
+msgid "Interactive styling"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:13
+msgid ""
+"GeoExplorer makes changes directly to GeoServer SLDs, and will completely "
+"overwrite SLD files on the server. It is always a good idea to make a backup"
+" copy of your SLDs before using GeoExplorer for styling."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:15
+msgid ""
+"If you aren't logged in, click the login button and provide your GeoServer "
+"administrator credentials: ``admin`` / ``geoserver``."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:17
+msgid ""
+"Select the ``smallworld`` layer and then click the :guilabel:`Edit Styles` "
+"button (the palette icon)."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:21
+msgid "Click to edit styles"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:23
+msgid "The :guilabel:`Edit Styles` dialog opens."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:27
+msgid "Edit Styles dialog"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:29
+msgid ""
+"In the :guilabel:`Styles` (upper) panel, click the :guilabel:`Add` (+) "
+"button to open the :guilabel:`User Style` dialog."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:31
+msgid ""
+"The new style is automatically given a name based on the current layer and a"
+" unique identifier.  Provide the style with a friendlier :guilabel:`Title` "
+"(e.g. \"Smallworld Points\") and :guilabel:`Abstract` (e.g. \"GeoExplorer "
+"user style for Smallworld point features\"), and click :guilabel:`Save`."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:35
+msgid "User Style dialog"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:37
+msgid ""
+"The *Edit Styles* dialog re-appears, displaying a single untitled style rule"
+" for the current layer."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:41
+msgid "Style Rule editor"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:43
+msgid ""
+"Select this rule, and click :guilabel:`Edit` to open the  -- The "
+":guilabel:`Style Rule` editor opens."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:45
+msgid "Make some basic changes to the rule."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:47
+msgid "Give it a new *Name*."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:48
+msgid "Change the *Symbol* type."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:49
+msgid "Alter the *Fill* and *Stroke* (outline) properties."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:53
+msgid "Updates to a layer style in GeoExplorer"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:55
+msgid ""
+"Without closing the editor, click the :guilabel:`Labels` tab. We'll set our "
+"style to display the year of our visit to each city."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:57
+msgid "Check the box next to :guilabel:`Label Features` to enable labeling."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:58
+msgid ""
+"In the expanded dialog, select ``Year`` from the :guilabel:`Label Values` "
+"drop-down."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:59
+msgid ""
+"Optionally, experiment with the font, color, and halo options for the label "
+"style."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:63
+msgid ""
+"Click :guilabel:`Save` to persist the SLD changes, and close the dialog."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:65
+msgid "Now you've got style!"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:68
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:70
+msgid "Explore the :guilabel:`Advanced` style rule options."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:72
+msgid "*Limit by scale*"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:73
+msgid "*Limit by condition*"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:77
+msgid "GeoExplorer Advanced style rule options"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:79
+msgid ""
+"You probably noticed that we can have more that one *Rule* within a style. "
+"How do you think we could use that?"
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:81
+msgid ""
+"Navigate back to GeoServer, and have a look at the SLD code that GeoExplorer"
+" created."
+msgstr ""
+
+#: ../../source/geoexplorer/styling.rst:85
+msgid "SLD code generated by GeoExplorer"
+msgstr ""

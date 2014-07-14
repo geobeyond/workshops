@@ -1,0 +1,125 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/uploading.rst:4
+msgid "Uploading data"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:7
+msgid ""
+"There's one other useful feature hidden away behind GeoExplorer's "
+":guilabel:`Login` button: The ability to upload data directly to GeoServer."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:9
+msgid ""
+"GeoExplorer allows you to upload one or more Shapefiles or GeoTIFFs, "
+"provided they are packaged into an archive (ZIP, GZ, TAR, etc.)  Single "
+"GeoTIFF files can actually be uploaded without an archive, however single "
+"SHPs cannot, as all of the associated files in a SHP (DBF, SHX, etc.) need "
+"to be packaged up together."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:11
+msgid ""
+"Conveniently, the file :file:`<workshop>\\\\data\\\\rivers.zip` contains "
+"just a shapefile that can be uploaded in GeoExplorer"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:13
+msgid ""
+"You'll need to be logged in to GeoExplorer to do this. If not already, "
+"please launch GeoExplorer and log in now."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:15
+msgid "From the Layer Toolbar, click the :command:`Add Layer` button."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:17
+msgid ""
+"We've seen this dialog before, but this time there's an :guilabel:`Upload "
+"Data` button in the bottom left corner."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:23
+msgid "Click :guilabel:`Upload Data`."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:25
+msgid "Fill in the fields in the :guilabel:`Upload Data` dialog, as shown."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:29
+msgid "When you're ready, click :guilabel:`Upload`."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:31
+msgid "The upload progress monitor spins while your layer is"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:33
+msgid "Uploaded to GeoServer"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:34
+msgid "Unzipped, if archived"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:35
+msgid "Located to the appropriate data-store"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:36
+msgid "Registered as a layer (in a store, with a workspace)"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:38
+msgid ""
+"When your layer has uploaded successfully, it will automatically appear in "
+"the list of :guilabel:`Available Layers` ready to be added to your map."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:42
+msgid ""
+"Add the layer to your map, and click :guilabel:`Done` to close the "
+":guilabel:`Available Layers` dialog."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:46
+msgid "Rivers layer in GeoExplorer"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:49
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:51
+msgid "Give your rivers a new, more appropriate style."
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:52
+msgid ""
+"Review the results of your upload in GeoServer (Workspace, Store, Layer, "
+"Style, SLD)"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:53
+msgid ""
+"If you uploaded this layer to a PostGIS store, confirm the results of the "
+"upload in the database"
+msgstr ""
+
+#: ../../source/geoexplorer/uploading.rst:54
+msgid "Add a new WMS resource to GeoExplorer"
+msgstr ""

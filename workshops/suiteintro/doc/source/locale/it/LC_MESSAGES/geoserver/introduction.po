@@ -1,0 +1,42 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/introduction.rst:4
+msgid "Introducing GeoServer"
+msgstr ""
+
+#: ../../source/geoserver/introduction.rst:6
+msgid ""
+"GeoServer is an open source software server written in Java that allows "
+"users to share and edit geospatial data. Designed for interoperability, "
+"GeoServer publishes data from any major spatial data source using open "
+"standards."
+msgstr ""
+
+#: ../../source/geoserver/introduction.rst:8
+msgid ""
+"We'll look at server/service concepts in more detail in another section.  "
+"For now, think of GeoServer as a gateway to collections of geospatial data. "
+"GeoServer abstracts this data, allowing all of it to be accessed in "
+"identical ways."
+msgstr ""
+
+#: ../../source/geoserver/introduction.rst:10
+msgid ""
+"In the evolving diagram of our OpenGeo Suite architecture GeoServer sits on "
+"top of PostGIS, sharing data from the database to clients."
+msgstr ""
+
+#: ../../source/geoserver/introduction.rst:14
+msgid "GeoServer in the OpenGeo Suite stack"
+msgstr ""

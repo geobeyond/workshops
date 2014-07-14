@@ -1,0 +1,86 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/apps/introduction.rst:4
+msgid "Introducing OpenLayers and GeoExt"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:6
+msgid ""
+"OpenGeo Suite includes some JavaScript libraries for building custom web map"
+" applications. These include OpenLayers and GeoExt"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:9
+msgid "OpenLayers"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:11
+msgid ""
+"`OpenLayers <http://openlayers.org>`_ is a JavaScript library for building "
+"mapping applications in a browser. Mapping applications consist of map "
+"layers (raster- or vector-based, integrated from a variety of sources), and "
+"controls for operating on those layers."
+msgstr ""
+
+#: ../../source/apps/introduction.rst:16
+msgid "Ext JS"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:18
+msgid ""
+"Ext JS is a JavaScript library offering a range of user interface widgets "
+"such as grids, trees, menus, and panels."
+msgstr ""
+
+#: ../../source/apps/introduction.rst:23
+msgid "GeoExt"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:25
+msgid ""
+"GeoExt combines the geospatial controls of OpenLayers with the user "
+"interface components of Ext JS into a framework that allows you to build "
+"rich desktop-style GIS applications for the browser."
+msgstr ""
+
+#: ../../source/apps/introduction.rst:30
+msgid "Previous examples"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:32
+msgid ""
+"We've seen both OpenLayers and GeoExt applications in the preceding "
+"sections."
+msgstr ""
+
+#: ../../source/apps/introduction.rst:34
+msgid ""
+"The GeoServer/GeoWebCache layer preview tools are built using OpenLayers"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:35
+msgid ""
+"Our published map application (and GeoExplorer itself) are built with GeoExt"
+msgstr ""
+
+#: ../../source/apps/introduction.rst:37
+msgid ""
+"In our evolving diagram of the OpenGeo Suite architecture, applications "
+"built using OpenLayers and/or GeoExt sit right at the top consuming layers, "
+"with/without GeoWebCache, from our local GeoServer."
+msgstr ""
+
+#: ../../source/apps/introduction.rst:43
+msgid "OpenLayers/GeoExt web-mapping applications in the OpenGeo Suite stack"
+msgstr ""

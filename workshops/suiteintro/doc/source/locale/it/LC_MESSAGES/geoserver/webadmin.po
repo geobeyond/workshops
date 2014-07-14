@@ -1,0 +1,155 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/webadmin.rst:4
+msgid "GeoServer web interface"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:8
+msgid ""
+"GeoServer includes a web-based administration interface through which most "
+"data/service configurations can be made. This interface lessens the need to "
+"edit configuration files by hand."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:10
+msgid "This section will give a brief overview to the web interface."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:13
+msgid "Viewing"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:15
+msgid ""
+"The default location of the GeoServer admin interface is "
+"`<http://localhost:8080/geoserver>`_. The initial page is called the "
+"*Welcome* page."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:19
+msgid "GeoServer Welcome page"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:22
+msgid "Authentication"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:24
+msgid ""
+"For security reasons, most GeoServer configuration tasks require that you "
+"log in. By default, the GeoServer administration credentials are ``admin`` "
+"and ``geoserver``, though these can be changed."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:26
+msgid ""
+"If you haven't already, launch the GeoServer admin interface "
+"`<http://localhost:8080/geoserver>`_."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:28
+msgid "Log in using the default credentials."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:32
+msgid "Logging in with default credentials"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:34
+msgid "After logging in, many more options will be displayed."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:38
+msgid "GeoServer Welcome page with administrative options"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:41
+msgid "Navigation"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:43
+msgid ""
+"The links in the left-hand column load management pages for specific "
+"features of GeoServer, such as :guilabel:`Data`, :guilabel:`Services`, and "
+":guilabel:`Security`."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:45
+msgid ""
+"Links in the right-hand column of the main page lead to the capabilities "
+"documents for each service (WFS, WMS, WCS)."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:47
+msgid ""
+"In this workshop, we will primarily be using the links in the "
+":guilabel:`Data` section on the left (:guilabel:`Workspaces`, "
+":guilabel:`Stores`, :guilabel:`Layers`, etc.), so it is a good idea to "
+"familiarize yourself with their location."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:50
+msgid "Layer Preview"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:52
+msgid ""
+"You can use the :guilabel:`Layer Preview` link to easily view layers "
+"currently being served by GeoServer. The Layer Preview page includes quick "
+"links for viewing layers using OpenLayers, and other services."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:54
+msgid ""
+"Click on the :guilabel:`Layer Preview` link, located on the left side under "
+":guilabel:`Data`."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:58
+msgid "Navigating to the Layer Preview page"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:60
+msgid ""
+"Preview the layers by clicking on the :guilabel:`OpenLayers` link next to "
+"each layer."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:64
+msgid "The Layer Preview page"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:68
+msgid "Viewing the usa:states layer"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:70
+msgid ""
+"Take a look at the contents of the URL in the browser address bar when "
+"viewing an OpenLayers map. It is similar in construction to the sample WMS "
+"requests made in the :ref:`geoserver.wms` section. The primary difference is"
+" the use of ``format=application/openlayers`` as the output format."
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:73
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/geoserver/webadmin.rst:75
+msgid ""
+"Spend some time exploring this interface and its features by clicking "
+"through the links on the left. The :guilabel:`Demos` link in particular "
+"contains some helpful utilities for testing and learning about the inner-"
+"workings of GeoServer functionality."
+msgstr ""

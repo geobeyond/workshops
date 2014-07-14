@@ -1,0 +1,148 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/layergroup.rst:4
+msgid "Creating a layer group"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:6
+msgid ""
+"A layer group, as its name suggests, is a group of layers. Grouping is "
+"useful when creating a \"basemap\", or other situations when many single "
+"layers are requested simultaneously and frequently from a WMS. Layer groups "
+"also let you combine data with different geometries and content."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:8
+msgid ""
+"In the previous sections, we loaded multiple layers from PostGIS. Now we'll "
+"use a layer group to combine them into a single virtual layer."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:10
+msgid ""
+"From the :ref:`geoserver.webadmin` page, click the :guilabel:`Layer Groups` "
+"link, under :guilabel:`Data` on the left side of the page."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:14
+msgid "Click to go to the Layer Groups page"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:16
+msgid "Click :guilabel:`Add new layer group` at the top of the page."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:20
+msgid "Layer Groups page"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:22
+msgid ""
+"Enter ``earthmap`` in the :guilabel:`Name` field. Don't click "
+":guilabel:`Save` yet."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:26
+msgid "Creating a new layer group"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:28
+msgid "Skip the Bounds and other form fields for now."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:30
+msgid ""
+"Now we will add layers to our layer group. Scroll down click the "
+":guilabel:`Add Layer` link."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:34
+msgid "Link to add layers to the layer group"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:36
+msgid "Select each of the following layers so that they appear in this order:"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:38
+msgid ":guilabel:`earth:shadedrelief`"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:39
+msgid ":guilabel:`earth:ocean`"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:40
+msgid ":guilabel:`earth:countries`"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:41
+msgid ":guilabel:`earth:citybuffers`"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:42
+msgid ":guilabel:`earth:cities`"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:46
+msgid "Adding a layer to the layer group"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:48
+msgid ""
+"To make it easier to find the appropriate layers, type in ``earth`` in the "
+"search box to narrow the listing."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:50
+msgid ""
+"Layer order in the group definition is important. The **top layer in the "
+"list will be drawn first, the bottom last**. Make sure to match the order of"
+" the above list."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:52
+msgid ""
+"Reorder the layers if necessary by clicking on the :guilabel:`Position` "
+"arrows for each layer."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:54
+msgid "Check the :guilabel:`Default Style` box for all four layers."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:56
+msgid ""
+"Now, click the :guilabel:`Generate Bounds` button to determine the bounding "
+"box for the entire layer group. This button will also determine the "
+"projection of the layer group, equal to the top layer's projection by "
+"default. If the projection is not found automatically, enter "
+":guilabel:`EPSG:4326`."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:60
+msgid "Completed layer group"
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:62
+msgid "Click :guilabel:`Save` when done."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:64
+msgid "Preview the layer by going to the :guilabel:`Layer Preview`."
+msgstr ""
+
+#: ../../source/geoserver/layergroup.rst:68
+msgid "Previewing the layer group"
+msgstr ""

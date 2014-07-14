@@ -1,0 +1,211 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: 2014-06-26 08:54+0100\n"
+"Last-Translator: Francesco Bartoli <francesco.bartoli@geobeyond.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it_IT\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../../source/geoserver/concepts.rst:4
+msgid "GeoServer Concepts"
+msgstr "Concetti di GeoServer"
+
+#: ../../source/geoserver/concepts.rst:6
+msgid ""
+"GeoServer uses lots of terminology that can be confusing if unfamiliar. This "
+"section introduces the GeoServer terms that we will use in upcoming sections."
+msgstr ""
+"GeoServer usa una serie di terminologie che possono confondere se non si ha "
+"familiarità. Questa sezione introdurrà i termini relativi a GeoServer usati "
+"nei paragrafi successivi "
+
+#: ../../source/geoserver/concepts.rst:9
+msgid "Workspace"
+msgstr "Workspace"
+
+#: ../../source/geoserver/concepts.rst:11
+msgid ""
+"A **workspace** is the name for a notional container used to group similar "
+"data together. It is designed to be a separate, isolated space relating to a "
+"certain project. Using workspaces, it is possible to use layers with "
+"identical names (in other workspaces) without conflict."
+msgstr ""
+"Un **workspace** indica il nome di un contenitore utilizzato per raggruppare "
+"assieme dei dati similari. E' organizzato in modo da risultare uno spazio di "
+"lavoro separato e isolato per un determinato progetto. Lavorando con i "
+"workspace è possibile utilizzare layer con identici nomi (in workspace "
+"differenti) senza andare in conflitto. "
+
+#: ../../source/geoserver/concepts.rst:13
+msgid ""
+"Workspaces are usually used as a prefix to a layer or store. For example, a "
+"layer called ``streets`` in a workspace called ``nyc`` would be referred to "
+"by ``nyc:streets``."
+msgstr ""
+"I workspace sono generalmente utilizzati come prefisso per un layer o uno "
+"store. Ad esempio, un layer chiamato ``streets`` in un workspace chiamato "
+"``nyc`` sarebbe individuato nella maniera seguente  ``nyc:streets``."
+
+#: ../../source/geoserver/concepts.rst:15
+msgid "Stores and layers must all have an associated workspace."
+msgstr "Gli store e i layer devono tutti essere associati ad un workspace."
+
+#: ../../source/geoserver/concepts.rst:17
+msgid ""
+"Technically, the name of a workspace is a URI, not the short prefix. A URI "
+"is a Uniform Resource Identifier, which is similar to a URL, but does not "
+"need to resolve to a web site. In the above example, the full workspace "
+"could have been ``http://boundlessgeo.com/nyc`` in which case the full layer "
+"name would be ``http://boundlessgeo.com/nyc:streets`` GeoServer "
+"intelligently replaces the workspace prefix with the full workspace URI, but "
+"it can be useful to know the difference."
+msgstr ""
+"Tecnicamente, il nome di un workspace è una URI, non un prefisso corto. Una "
+"URI, Uniform Resource Identifier, è simile ad una URL ma non ha bisogno di "
+"essere risolta in un sito Web. Nell'esempio di prima l'intero workspace "
+"potrebbe essere ``http://boundlessgeo.com/nyc``, nel qual caso il nome "
+"completo del layer sarebbe ``http://boundlessgeo.com/nyc:streets``. "
+"GeoServer in maniera trasparente sostituisce il prefisso con la URI completa "
+"del workspace ma è bene conoscere la differenza tra i due."
+
+#: ../../source/geoserver/concepts.rst:20
+msgid "Store"
+msgstr "Store"
+
+#: ../../source/geoserver/concepts.rst:22
+msgid ""
+"A **store** is the name for a container of geographic data. A store refers "
+"to a specific data source, be it a shapefile, database, or any other data "
+"source that GeoServer supports."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:24
+msgid ""
+"A store can contain many layers, as in the case of a database that contains "
+"many tables."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:26
+msgid ""
+"A store can also have a single layer, such as in the case of a GeoTIFF, "
+"which can only contain one layer."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:28
+msgid "A store must contain at least one layer."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:30
+msgid ""
+"GeoServer saves the connection parameters to each store (such as a path to "
+"the shapefile, or credentials to connect to the database)."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:32
+msgid "Each store is associated with one (and only one) workspace."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:35
+msgid "Layer"
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:37
+msgid "A **layer** is a collection of geospatial features or a coverage."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:39
+msgid ""
+"Typically a layer contains one geometry type (points, lines, polygons, "
+"raster), and"
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:41
+msgid ""
+"Has a single type of content (streets, houses, country boundaries, etc.)."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:43
+msgid ""
+"Aside from individual features, a layer is the smallest grouping of "
+"geospatial data."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:45
+msgid ""
+"A layer corresponds to a table or view from a database, or an individual "
+"file."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:47
+msgid ""
+"GeoServer stores information associated with a layer, such as projection "
+"information, bounding box, associated styles, and more. Each layer must be "
+"associated with one (and only one) workspace."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:50
+msgid "Layer Group"
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:52
+msgid ""
+"A **layer group**, as its name suggests, is a grouping of layers. A layer "
+"group makes it possible to request multiple layers with a single WMS request."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:54
+msgid ""
+"A layer group contains information about the layers that comprise the layer "
+"group, the order in which they are rendered, the projection, associated "
+"styles, and more. This information can be different from the defaults for "
+"each individual layer."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:56
+msgid ""
+"Layer groups do not respect the concept of workspace, and are relevant only "
+"to WMS requests."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:59
+msgid "Style"
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:61
+msgid "A **style** is a visualization directive for rendering geographic data."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:63
+msgid ""
+"A style can contain basic instructions for color, shape, and size, along "
+"with advanced rules for rendering features differently based on attributes "
+"and zoom-levels."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:65
+msgid ""
+"Every layer must be associated with at least one style (GeoServer applies a "
+"default style to each new layer)."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:67
+msgid "GeoServer recognizes styles in Styled Layer Descriptor (SLD) format."
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:70
+msgid ""
+"The following diagram summarizes how the carious concepts in this section "
+"interact:"
+msgstr ""
+
+#: ../../source/geoserver/concepts.rst:74
+msgid "Relationships between workspaces, stores, layers, and layer groups"
+msgstr ""

@@ -1,0 +1,202 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/importdb.rst:4
+msgid "Importing data from PostGIS"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:8
+msgid ""
+"In this section we're going load several PostGIS tables simultaneously into "
+"GeoServer."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:10
+msgid ""
+"We could easily just follow the same steps we used to load our GeoTIFF, for "
+"each table in our PostGIS store; however, that would get a little "
+"repetitive."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:12
+msgid ""
+"GeoServer ships with a **Layer Importer** that streamlines the workflow down"
+" to a few steps for multiple tables in a database. The Layer Importer works "
+"with database tables and directories of shapefiles."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:14
+msgid ""
+"Essentially, once pointed at its target, the Layer Importer creates a "
+"single, common store for the features in that target, pulls them in as "
+"individual layers, assigns their properties (Name, SRID, etc) where possible"
+" from metadata, and generates a unique style for each layer."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:17
+msgid "Import From PostGIS store"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:19
+msgid ""
+"From the GeoServer Admin page, click on the :guilabel:`Import Data` link on "
+"the left-hand side, under :guilabel:`Data`."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:23
+msgid "Click this link to go to the Import page"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:25
+msgid ""
+"Click on :guilabel:`PostGIS` to select *spatial tables from PostGIS* as your"
+" data type."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:29
+msgid "Import from data source"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:31
+msgid "Fill out the following form."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:36
+msgid "Database"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:37
+msgid "``SuiteWorkshop``"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:38
+msgid "Port"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:39
+msgid "``5432``"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:40
+msgid "Username"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:41
+msgid "``postgres``"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:42
+msgid "Password"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:43
+msgid "``[blank]``"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:47
+msgid "PostGIS data store import parameters."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:49
+msgid "Click :guilabel:`Next` when ready."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:51
+msgid ""
+"This screen asks you to select the layers to import from a list of all of "
+"the resources that exist in the store."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:55
+msgid "Select resources to import from the store."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:57
+msgid ""
+"Ensure that **all** checkboxes are checked, and click :guilabel:`Import "
+"Data`."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:59
+msgid "A progress monitor marks the status of the import."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:61
+msgid ""
+"When the process is complete, you are redirected to the ``Import Results`` "
+"page."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:65
+msgid "Import results"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:67
+msgid ""
+"If the SRS is not populated automatically, check all of the relevant layers "
+"and click :guilabel:`Declare SRS`. The next screen will allow you to select "
+"the coordinate system that applies to your data."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:69
+msgid ""
+"That's about it! In a consolidated number of steps, you have declared a "
+"store, and imported and published a handful of layers in GeoServer. This is "
+"the recommended approach when importing many layers from PostGIS or a "
+"directory of Shapefiles."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:72
+msgid "Layer Preview"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:74
+msgid ""
+"As a final step to our bulk data load, let's preview some of what we've "
+"done."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:76
+msgid ""
+"From the list of layers in the ``Import Results`` screen, find the "
+"``countries`` layer. Click the :guilabel:`Go` link to the right of the "
+"``countries`` entry to open the layer in OpenLayers."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:78
+msgid ""
+"A new tab will open up in your browser, showing your layer inside an "
+"OpenLayers application."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:82
+msgid "Viewing the published layer in OpenLayers"
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:84
+msgid ""
+"If you're wondering where the style/color is coming from, this will be "
+"discussed in the :ref:`geoserver.styling` section."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:86
+msgid ""
+"Play around with this window. You can use your mouse to zoom and pan, and "
+"can also click on the layer features to display attribute information."
+msgstr ""
+
+#: ../../source/geoserver/importdb.rst:88
+msgid ""
+"Congratulations, your PostGIS data has been successfully published in "
+"GeoServer! You now have spatial data on the web!"
+msgstr ""

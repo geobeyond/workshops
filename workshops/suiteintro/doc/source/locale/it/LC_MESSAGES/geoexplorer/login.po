@@ -1,0 +1,105 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/login.rst:4
+msgid "Logging in"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:6
+msgid ""
+"Thus far in the workshop, we've composed a map using the very layers we "
+"stored in PostGIS and then published through GeoServer.  Now, if we log in "
+"to GeoExplorer, we can do some even more exciting things."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:8
+msgid "Click the :guilabel:`Login` button on the top right of the Toolbar."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:12
+msgid "Login button"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:14
+msgid ""
+"Enter your **Username** and **Password** as shown and click :guilabel:`OK`. "
+"These credentials are the same as for GeoServer (``admin`` / ``geoserver``  "
+"by default)."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:18
+msgid "Login dialog"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:20
+msgid ""
+"After logging in successfully, you'll notice that we have a few more items "
+"on the *Button Bar* available to us."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:25
+msgid "Button"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:26
+msgid "Name"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:29
+msgid "Save Map"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:30
+msgid ""
+"Save the current map configurations (on the server) with a permalink to "
+"access this map in the future."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:32
+msgid "Publish"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:33
+msgid ""
+"Open a wizard for building an embeddable map widget using your current "
+"configurations."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:35
+msgid "Create New Feature"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:36
+msgid "Initiates the workflow to create a new feature in the selected layer."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:38
+msgid "Edit Existing Feature"
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:39
+msgid ""
+"Initiates the workflow to edit and/or delete an existing feature in the "
+"selected layer."
+msgstr ""
+
+#: ../../source/geoexplorer/login.rst:41
+msgid ""
+"Additionally, if we select one of the Overlays in the :guilabel:`Layer "
+"List`, the :guilabel:`Edit Styles` button is now available to us in both the"
+" Layer Toolbar and the layer's context menu."
+msgstr ""

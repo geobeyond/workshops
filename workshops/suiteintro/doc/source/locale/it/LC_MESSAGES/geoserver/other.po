@@ -1,0 +1,102 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoserver/other.rst:4
+msgid "Other protocols"
+msgstr ""
+
+#: ../../source/geoserver/other.rst:6
+msgid ""
+"While beyond the scope of this workshop, it is worth noting that GeoServer "
+"offers limited support for other protocols in addition to WMS and WFS."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:9
+msgid "Web Coverage Service (WCS)"
+msgstr ""
+
+#: ../../source/geoserver/other.rst:11
+msgid ""
+"The Web Coverage Service is a service that enables access to the underlying "
+"raster (or \"coverage\") data."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:13
+msgid ""
+"In a sense, WCS is the raster analog to WFS, where you can access the actual"
+" raster data stored on a server."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:15
+msgid "GeoServer contains full support for WCS versions up to 1.1.1."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:17
+msgid ""
+"For more information on WCS, please see the OGC site on the Web Coverage "
+"Service protocol at `<http://www.opengeospatial.org/standards/wcs>`_."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:20
+msgid "Web Processing Service (WPS)"
+msgstr ""
+
+#: ../../source/geoserver/other.rst:22
+msgid ""
+"The Web Processing Service (WPS) is a service for publishing geospatial "
+"processes, algorithms, and calculations."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:24
+msgid ""
+"WPS extends the web mapping server to provide geospatial analysis. WPS in "
+"GeoServer allows for direct integration with other GeoServer services and "
+"the data catalog. This means that it is possible to create processes based "
+"on data served in GeoServer, including the results of a process to be stored"
+" as a new layer. In this way, WPS acts as a full browser-based geospatial "
+"analysis tool, capable of reading and writing data from and to GeoServer."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:26
+msgid ""
+"A much newer development in GeoServer, WPS is only recently available in the"
+" core OpenGeo Suite.  Expect more developments from this front in the coming"
+" months."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:28
+msgid ""
+"For more information on WPS, please see the OGC site on the Web Processing "
+"Service protocol at `<http://www.opengeospatial.org/standards/wps>`_."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:31
+msgid "REST interface"
+msgstr ""
+
+#: ../../source/geoserver/other.rst:33
+msgid ""
+"GeoServer also has a RESTful API for loading and configuring GeoServer."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:35
+msgid ""
+"With this interface, one can create scripts (via bash, Python, etc) to batch"
+" load any number of files."
+msgstr ""
+
+#: ../../source/geoserver/other.rst:37
+msgid ""
+"Those interested in more information can read the REST section of the "
+"GeoServer documentation at http://docs.geoserver.org/stable/en/user/rest/."
+msgstr ""

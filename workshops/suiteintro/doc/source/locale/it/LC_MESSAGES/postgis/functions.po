@@ -1,0 +1,269 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/postgis/functions.rst:4
+msgid "Spatial functions and queries"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:8
+msgid ""
+"PostGIS adds several hundred geometry-specific functions to PostgreSQL. "
+"Discussing all of them is far beyond the scope of this workshop! However, in"
+" this section, we'll work through a short example to introduce function "
+"syntax, and add another table to our ``SuiteWorkshop`` database."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:11
+msgid "Accessing spatial functions"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:13
+msgid ""
+"Accessing spatial functions in PostGIS is no different than accessing other "
+"string, number, or date functions in an ordinary database."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:15
+msgid ""
+"Functions are expressed in Structured Query Language (SQL) statements. For "
+"example:"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:23
+msgid "Running a SQL command in pgAdmin"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:27
+msgid "Creating a spatially-enabled table"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:29
+msgid ""
+"This short example will show how to spatially enable a newly-created table "
+"in our PostGIS database using the :command:`AddGeometryColumn` function."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:31
+msgid ""
+"If it isn't already, open up your pgAdmin SQL Query Tool. "
+"(:menuselection:`Tools --> Query Tool`)"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:35
+msgid "Loading the SQL Query tool"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:37
+msgid ""
+"Open the file :file:`<workshop>\\\\sql\\\\smallworld_create.sql`, or copy "
+"and paste the following block into the SQL Editor."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:39
+msgid "Make sure to delete any text already in the SQL Editor, if any."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:52
+#: ../../source/postgis/functions.rst:108
+msgid "Click the :guilabel:`Play` button to execute the commands."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:54
+msgid ""
+"The first line in the code-block :command:`CREATE TABLE ...`, created a "
+"table with the specified columns and keys. This is stock SQL with no spatial"
+" component until the end: the last line defines a ``geom`` column for a "
+"``Point`` geometry with SRID of ``4326``."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:56
+msgid ""
+"If we have a look at the entries in the ``geometry_columns`` view, we can "
+"see the row for the spatially enabled ``smallworld`` table."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:60
+msgid "The geometry_columns view with an entry for the smallworld table"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:62
+msgid ""
+"Furthermore if we have another look at our ``smallworld`` table, we can see "
+"the newly created geometry column ``geom``, and in the table properties the "
+"constraints."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:66
+msgid "It's a spatially-enabled small world after all"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:68
+msgid "Finally, let's add some features to the ``smallworld`` table."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:70
+msgid ""
+"From within the SQL Query Tool window, open the file "
+":file:`<workshop>\\\\sql\\\\smallworld_insert.sql`, or copy and paste the "
+"following block into the SQL Query Editor."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:110
+msgid ""
+"Have a look at the newly created ``smallworld`` table back in pgAdmin. "
+"Right-click on :guilabel:`Tables` and go to :guilabel:`Refresh`, then right-"
+"click on the ``smallworld`` table, then go to :guilabel:`View Data`, then "
+":guilabel:`View All Rows`."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:114
+msgid "Data table"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:117
+msgid "Function examples"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:119
+msgid ""
+"Now let's take a look at some of the different kinds of spatial functions "
+"available to PostGIS."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:122
+msgid "Conversion functions"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:124
+msgid ""
+"Conversion functions allow data to be converted between geometries and "
+"external data formats."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:126
+msgid ""
+"The following example uses the ``ST_AsText`` function to demystify the "
+"binary geometry representations."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:128
+msgid "Select raw binary geometry from your smallworld table:"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:140
+msgid ""
+"Use the function ``ST_AsText()`` to make the geometry a bit more "
+"approachable:"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:152
+msgid "Better, right?"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:154
+msgid ""
+"Converting geometries to/from other formats, is what allows PostGIS to share"
+" data with a growing number of client applications."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:157
+msgid "Retrieval functions"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:159
+msgid "Retrieval functions expose properties or measures from a geometry."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:161
+msgid ""
+"Let's use the function ``ST_Perimeter`` to determine the outer length of "
+"some features in our *countries* table:"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:175
+msgid "More on what those numbers mean in a bit."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:178
+msgid "Comparison functions"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:180
+msgid ""
+"Comparison functions evaluate spatial relationships between two geometries."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:182
+msgid ""
+"This example uses the :command:`ST_Distance` to figure out how far Denver, "
+"CO is away from the OpenGeo office (in New York)."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:195
+msgid "We're about ~31 away from New York. 31 what?  Stay tuned."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:199
+msgid "Generation functions"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:201
+msgid "Generation functions create new geometries from others."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:203
+msgid ""
+"We'll use the :command:`ST_Buffer` function to create a buffer zone around "
+"the cities in the ``cities`` layer. We'll call this layer ``citybuffers``."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:205
+msgid ""
+"To create the buffer zone, we first create a table to hold our geometries:"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:214
+msgid ""
+"Next, insert into our :command:`buffer` table new geometries generated from "
+"the :command:`ST_Buffer` function."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:221
+msgid "Buffers. It's what every spatial analyst dreams about."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:225
+msgid "Visualizing buffers"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:227
+msgid "We buffered with a value of 2, but 2 what?"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:230
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:232
+msgid ""
+"What are the units we're dealing with and why are they problematic. Why are "
+"we using them?"
+msgstr ""
+
+#: ../../source/postgis/functions.rst:233
+msgid "Try this ..."
+msgstr ""
+
+#: ../../source/postgis/functions.rst:246
+msgid "What does this value mean?"
+msgstr ""

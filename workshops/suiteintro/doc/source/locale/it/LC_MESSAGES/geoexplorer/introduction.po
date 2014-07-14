@@ -1,0 +1,39 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/introduction.rst:4
+msgid "Introducing GeoExplorer"
+msgstr ""
+
+#: ../../source/geoexplorer/introduction.rst:6
+msgid ""
+"GeoExplorer is a browser-based interface for composing and publishing web-"
+"mapping applications."
+msgstr ""
+
+#: ../../source/geoexplorer/introduction.rst:8
+msgid ""
+"Using the latest version of GeoExplorer you can also style your GeoServer "
+"layers and edit the data-sources underneath them."
+msgstr ""
+
+#: ../../source/geoexplorer/introduction.rst:10
+msgid ""
+"In our evolving diagram of OpenGeo Suite architecture, GeoExplorer sits at "
+"the top consuming layers from our local GeoServer whose data sources include"
+" the under-lying PostGIS database and file-system."
+msgstr ""
+
+#: ../../source/geoexplorer/introduction.rst:14
+msgid "GeoExplorer (GeoExt) in the OpenGeo Suite stack"
+msgstr ""

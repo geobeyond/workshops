@@ -1,0 +1,233 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Introduction to OpenGeo Suite December 2013\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/geoexplorer/publishing.rst:4
+msgid "Publishing map widgets"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:6
+msgid ""
+"In this section, we'll use GeoExplorer's **Export Map** tool to publish our "
+"composed layout as a custom map application that can be embedded on a web "
+"page."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:9
+msgid "Export Map tool"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:14
+msgid "Button"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:15
+msgid "Name"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:16
+msgid "Description"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:18
+msgid "Export Map"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:19
+msgid ""
+"Initiates the workflow to export your current map layout to a custom web-map"
+" widget."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:22
+msgid "Export Your Saved Map"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:24
+msgid ""
+"Exporting your map to a web page is a quick process. However, first we need "
+"a web page to export our map to. Thankfully, there is a template HTML file "
+"in our :file:`<workshop>\\\\html` directory."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:26
+msgid "The unadorned template looks a little like this:"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:30
+msgid "Without a map, it's just a bunch of gibberish"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:32
+msgid "Now let's have a quick look at the **code**."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:34
+msgid "Open the :file:`GNN.html` file in your text editor."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:38
+msgid "The HTML page we'll be editing"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:40
+msgid ""
+"Now back to publishing our map. Continuing the previous exercise, you should"
+" be logged in to GeoExplorer. Open the map layout you saved previously."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:42
+msgid ""
+"Click the :guilabel:`Export Map` button to trigger the publishing process."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:46
+msgid ""
+"The :guilabel:`Export Map` dialog opens, presenting a list of tools that can"
+" be added to the toolbar in your exported map. By default, all of the tool "
+"options are enabled."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:50
+msgid "Selecting map tools"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:52
+msgid "Adjust the selection of tools if desired."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:54
+msgid ""
+"Once you've selected the tools to include your published map's toolbar, "
+"click the :guilabel:`Next` button to proceed."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:56
+msgid ""
+"This screen provides you with a code snippet to embed your map application "
+"into a web-page template. Copy the code in the ``<iframe>...</iframe>`` "
+"block to your clipboard."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:60
+msgid "Published map code snippet"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:62
+msgid ""
+"Return to your text editor and scroll down to around line 32. Replace the "
+"comment shown below with GeoExplorer's HTML block."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:68
+msgid "Your HTML file should now look something like this:"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:72
+msgid "Save your HTML file, and return to your browser."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:74
+msgid "**Refresh** the page."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:78
+msgid "A happy web page"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:80
+msgid "Congratulations, you have published your first map!"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:82
+msgid ""
+"How's the map performance? A little slow? In an upcoming section, we'll look"
+" at how to accelerate map delivery using GeoWebCache."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:86
+msgid "Other publishing options"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:88
+msgid "We have a few other options when publishing our maps."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:91
+msgid "Preview"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:93
+msgid ""
+"At any time we can click the **Preview** button to get a glimpse of what our"
+" published map application will look like."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:95
+msgid "Click the :guilabel:`Preview` button."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:97
+msgid "A preview of our mapping application pops-up in a new panel."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:99
+msgid ":guilabel:`Close` the preview pop-up."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:104
+msgid "Dimensions"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:106
+msgid ""
+"In the second step, we have controls to specify the dimensions of our map."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:108
+msgid ""
+"The :guilabel:`Map Size` drop-down lists several common map height/width "
+"pairs."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:110
+msgid ""
+"Alternately, you can enter values in the :guilabel:`Height` and "
+":guilabel:`Width` fields directly. Change these values to 750 and 650, "
+"respectively."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:112
+msgid ""
+"Make sure to tab or click out of the *Width* field when you're done, "
+"otherwise the change won't take effect."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:114
+msgid ""
+"Changing these values updates the code in the ``<iframe>`` block with the "
+"new map size."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:119
+msgid "Bonus"
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:121
+msgid ""
+"Change any of the map options. Use the **Back** and **Next** buttons to move"
+" between the toolbar and dimension option screens."
+msgstr ""
+
+#: ../../source/geoexplorer/publishing.rst:123
+msgid "Republish these changes into your HTML page, and confirm your changes."
+msgstr ""
